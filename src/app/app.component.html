@@ -1,0 +1,11 @@
+<main>
+
+  <!--  header hide on login/register -->
+  <app-header *ngIf="!isAuthPage()"></app-header>
+
+  <router-outlet></router-outlet>
+
+  <!-- footer hide on login and short videos -->
+  <app-footer *ngIf="!isAuthPage() && !isShortVideosPage()"></app-footer>
+
+</main>

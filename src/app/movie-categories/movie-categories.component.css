@@ -1,0 +1,52 @@
+.movie-section{
+background:black;
+color:white;
+padding:40px;
+}
+
+.section-title{
+margin:30px 0 15px 10px;
+font-size:22px;
+font-weight:600;
+}
+
+/* Movie row layout */
+.movie-row{
+display:flex;
+gap:15px;
+overflow-x:auto;
+padding-bottom:10px;
+}
+
+/* Scrollbar hide */
+.movie-row::-webkit-scrollbar{
+display:none;
+}
+
+/* Card design */
+.movie-card{
+min-width:180px;
+transition:0.3s;
+cursor:pointer;
+}
+
+.movie-card img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.movie-card p{
+margin-top:8px;
+font-size:14px;
+}
+
+/* Hover effect */
+.movie-card:hover{
+transform:scale(1.09);
+}
+
+.movie-card:hover img{
+box-shadow:0 10px 30px rgba(0,0,0,0.8);
+}

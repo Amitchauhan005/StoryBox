@@ -1,0 +1,70 @@
+
+body{
+background:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid{
+    /* border: 1px solid red !important; */
+    margin-left: -10px;
+}
+
+.container-heading1{
+    margin-left: 50px !important;
+    /* border: 1px solid red; */
+}
+
+.feature-card{
+/* border:3px solid rgb(0, 238, 255) !important ; */
+background: linear-gradient(180deg,#1c1c3c,#2a0f2f);
+padding:25px;
+border-radius:15px;
+height:100%;
+transition:0.3s;
+}
+
+.card-container{
+/* border:3px solid rgb(236, 226, 226) !important ; */
+margin-left: 0px !important;
+/* margin-bottom: 100px !important; */
+
+}
+.container-heading {
+    /* border: 3px solid red !important; */
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.container-heading1{
+    margin-left: 50px !important;
+    margin-bottom: 10px;
+}
+
+.feature-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,0.5);
+}
+
+.feature-card h5{
+font-weight:600;
+margin-bottom:10px;
+}
+
+.feature-card p{
+font-size:14px;
+color:#dcdcdc;
+}
+
+.accordion-button::after{
+filter: invert(1);
+}
+
+.accordion-button{
+font-size:18px;
+}
+.accordion{
+    /* border: 3px solid red !important; */
+    /* margin-left: -1px !important; */
+     margin-left: 40px !important; 
+
+}

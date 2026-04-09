@@ -1,0 +1,222 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "genre": "النوع",
+    "search": "بحث",
+    "history": "التاريخ",
+    "myList": "قائمتي",
+    "playedToEpisode": "مشاهدة حتى الحلقة {{episode}}",
+    "more": "المزيد",
+    "download": "تحميل"
+  },
+  "search": {
+    "placeholder": "ابحث عما تريد",
+    "searchResults": "نتائج البحث",
+    "noResults": "لم يتم العثور على أفلام لـ \"{query}\"",
+    "viewAllResults": "عرض جميع {count} النتائج",
+    "popularSearches": "عمليات البحث الشائعة:",
+    "peopleAreSearching": "أشخاص يبحثون",
+    "moviesAndTVSeries": "أفلام ومسلسلات",
+    "noMoviesFound": "لم يتم العثور على أفلام."
+  },
+  "home": {
+    "continueWatching": "تابع المشاهدة",
+    "newMovies": "أفلام جديدة",
+    "allMovies": "جميع الأفلام",
+    "moreMovies": "المزيد من الأفلام"
+  },
+  "movie": {
+    "watchNow": "شاهد الآن",
+    "addToList": "أضف إلى قائمتي",
+    "removeFromList": "إزالة من قائمتي",
+    "episodes": "الحلقات",
+    "description": "الوصف",
+    "cast": "الطاقم",
+    "genre": "النوع",
+    "duration": "المدة",
+    "rating": "التقييم",
+    "releaseDate": "تاريخ الإصدار",
+    "director": "المخرج",
+    "producer": "المنتج",
+    "favorites": "المفضلة",
+    "completed": "مكتمل"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "signup": "إنشاء حساب",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "notAuthenticated": "أنت غير مسجل، يرجى تسجيل الدخول",
+    "coins": "عملات",
+    "topUp": "إعادة شحن",
+    "chooseYourExperience": "اختر تجربتك",
+    "getAccessToPremiumContent": "احصل على محتوى مميز",
+    "continueWithGoogle": "تابع مع جوجل",
+    "termsOfService": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "byContinyingYouAgree": "بمتابعتك، فإنك توافق على",
+    "and": "و",
+    "pleaseLoginFirst": "يرجى تسجيل الدخول أولاً"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "library": "المكتبة",
+    "wallet": "المحفظة",
+    "history": "السجل",
+    "favorites": "المفضلة",
+    "watchlist": "قائمة المشاهدة",
+    "accountBalance": "رصيد الحساب",
+    "myList": "قائمتي",
+    "transactionHistory": "سجل المعاملات",
+    "episodesUnlocked": "الحلقات المفتوحة",
+    "price": "السعر",
+    "coins": "العملات",
+    "uniqueId": "المعرف الفريد",
+    "paymentGateway": "بوابة الدفع",
+    "date": "التاريخ",
+    "movieName": "اسم الفيلم",
+    "episodeNumber": "رقم الحلقة",
+    "unlockTime": "وقت الفتح"
+  },
+  "footer": {
+    "about": "حول",
+    "support": "الدعم",
+    "contactUs": "اتصل بنا",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "feedback": "ملاحظات",
+    "mediaRelations": "علاقات الإعلام"
+  },
+  "payment": {
+    "enterPaymentDetails": "أدخل بيانات الدفع",
+    "price": "السعر",
+    "fullName": "الاسم الكامل",
+    "addressLine1": "العنوان (السطر ١)",
+    "addressLine2": "العنوان (السطر ٢ – اختياري)",
+    "city": "المدينة",
+    "state": "الولاية",
+    "postalCode": "الرمز البريدي",
+    "payNow": "ادفع الآن",
+    "processing": "جارٍ المعالجة...",
+    "cancel": "إلغاء",
+    "paymentMethod": "طريقة الدفع",
+    "bonus": "مكافأة"
+  },
+  "unlock": {
+    "payToContinueWatching": "ادفع لمتابعة المشاهدة",
+    "unlockAtJust": "افتح بسعر",
+    "topUpToGet100Bonus": "اشحن لتحصل على مكافأة ١٠٠٪",
+    "balance": "الرصيد"
+  },
+  "video": {
+    "play": "تشغيل",
+    "pause": "إيقاف مؤقت",
+    "mute": "كتم الصوت",
+    "unmute": "إلغاء الكتم",
+    "fullscreen": "ملء الشاشة",
+    "exitFullscreen": "خروج من ملء الشاشة",
+    "volume": "مستوى الصوت",
+    "settings": "الإعدادات",
+    "speed": "السرعة",
+    "quality": "الجودة"
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "خطأ",
+    "success": "تم بنجاح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "back": "عودة",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "ok": "حسناً",
+    "retry": "إعادة المحاولة",
+    "continue": "متابعة",
+    "all": "جميع",
+    "movies": "أفلام",
+    "noMoviesFound": "لم يتم العثور على أفلام.",
+    "home": "الرئيسية"
+  },
+  "language": {
+    "selectLanguage": "اختر اللغة",
+    "language": "اللغة"
+  },
+  "errors": {
+    "somethingWentWrong": "حدث خطأ ما",
+    "tryAgain": "يرجى المحاولة مجددًا",
+    "networkError": "خطأ في الشبكة",
+    "unauthorized": "دخول غير مصرح",
+    "invalidCredentials": "بيانات اعتماد غير صحيحة",
+    "sessionExpired": "انتهت الجلسة"
+  },
+  "notifications": {
+    "movieAddedToList": "تمت إضافة الفيلم إلى قائمتك",
+    "movieRemovedFromList": "تمت إزالة الفيلم من قائمتك",
+    "loginRequired": "يرجى تسجيل الدخول للمتابعة",
+    "operationSuccessful": "تمت العملية بنجاح",
+    "paymentSuccessful": "تم الدفع بنجاح",
+    "paymentFailed": "فشل الدفع",
+    "loginSuccessful": "تم تسجيل الدخول بنجاح",
+    "logoutSuccessful": "تم تسجيل الخروج بنجاح"
+  },
+  "login": {
+    "chooseYourExperience": "اختر تجربتك",
+    "getAccessToPremiumContent": "احصل على محتوى مميز",
+    "continueWithGoogle": "تابع مع جوجل",
+    "byContinuingYouAgree": "بمتابعتك، فإنك توافق على شروط الخدمة وسياسة الخصوصية"
+  },
+  "movieDetails": {
+    "play": "تشغيل",
+    "addToMyList": "أضف إلى قائمتي",
+    "removeFromMyList": "إزالة من قائمتي",
+    "pleaseLoginToAddToList": "يرجى تسجيل الدخول لإضافة الفيلم إلى قائمتك",
+    "remove": "إزالة",
+    "add": "إضافة"
+  },
+  "episodes": {
+    "home": "الرئيسية",
+    "episode": "الحلقة",
+    "fullMovie": "الفيلم الكامل",
+    "share": "مشاركة",
+    "plotof": "القصة ل",
+    "episodeListOf": "قائمة الحلقات ل",
+    "completed": "مكتمل",
+    "allEpisodes": "جميع الحلقات",
+    "trailer": "تريلر"
+  },
+  "details": {
+    "home": "الرئيسية",
+    "share": "مشاركة",
+    "goToWatching": "تابع المشاهدة",
+    "addToMyList": "أضف إلى قائمتي",
+    "removeFromMyList": "إزالة من قائمتي",
+    "remove": "إزالة",
+    "add": "إضافة",
+    "ep": "الحلقة",
+    "youMightLike": "قد تعجبك",
+    "plotof": "القصة ل",
+    "trailer": "تريلر",
+    "episode": "الحلقة",
+    "episodeList": "قائمة الحلقات"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "جميع الحلقات",
+    "episodes": "الحلقات",
+    "moviesAndTVSeries": "أفلام ومسلسلات"
+  },
+  "videoError": {
+    "errorOccurred": "حدث خطأ أثناء تشغيل الفيلم"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "مسح الرمز المصور لتحميل تطبيق ",
+    "downloadOnIOSOrAndroid": "تحميل على iOS أو Android"
+  }
+}

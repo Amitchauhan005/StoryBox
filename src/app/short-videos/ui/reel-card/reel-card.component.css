@@ -1,0 +1,95 @@
+.reel {
+  height: 100%;                 
+  position: relative;
+  scroll-snap-align: start;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Play Icon */
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+/* Right Icons - vertically centered */
+.right {
+  position: absolute;
+  right: 12px;
+  top: 70%;
+  transform: translateY(-50%);  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.right button {
+  background: transparent;
+  border: none;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  padding: 0;
+}
+
+.right button span {
+  font-size: 12px;
+  color: white;
+}
+
+.right button i {
+  color: white;
+  font-weight: 400;
+}
+
+.right button:hover i {
+  color: #cf0a0a;
+}
+
+/* Bottom Description */
+.bottom {
+  position: absolute;
+  bottom: 20px;
+  left: 12px;
+  right: 70px;                  
+  color: white;
+}
+
+.bottom h4 {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bottom p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.read-more {
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 4px;
+  color: #ddd;
+  text-decoration: underline;
+}

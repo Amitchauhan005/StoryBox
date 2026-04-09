@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "முகப்பு",
+    "genre": "வகை",
+    "search": "தேடு",
+    "history": "வரலாறு",
+    "myList": "எனது பட்டியல்",
+    "playedToEpisode": "{{episode}}வது எபிசோட்திற்க்கு இயக்கப்பட்டது",
+    "more": "மேலும்",
+    "download": "பதிவிறக்கு"
+  },
+  "search": {
+    "placeholder": "நீங்கள் விரும்பும்தை தேடுங்கள்",
+    "searchResults": "தேடல் முடிவுகள்",
+    "noResults": "\"{query}\"க்கான எந்தப் படங்களும் இல்லை",
+    "viewAllResults": "முழு முடிவுகளை காண்க ({count})",
+    "popularSearches": "பிரபலமான தேடல்கள்:",
+    "peopleAreSearching": "மக்கள் தேடுகிறார்கள்",
+    "moviesAndTVSeries": "திரைப்படங்கள் & தொலைக்காட்சி தொடர்கள்",
+    "noMoviesFound": "படங்கள் எதுவும் இல்லை."
+  },
+  "home": {
+    "continueWatching": "பார்ப்பதை தொடரவும்",
+    "newMovies": "புதிய திரைப்படங்கள்",
+    "allMovies": "அனைத்து திரைப்படங்கள்",
+    "moreMovies": "மேலும் திரைப்படங்கள்"
+  },
+  "movie": {
+    "watchNow": "இப்போது பாருங்கள்",
+    "addToList": "பட்டியலில் சேர்க்கவும்",
+    "removeFromList": "பட்டியலிலிருந்து அகற்று",
+    "episodes": "எபிசோட்கள்",
+    "description": "விளக்கம்",
+    "cast": "நடிகர்கள்",
+    "genre": "வகை",
+    "duration": "நேரம்",
+    "rating": "மதிப்பீடு",
+    "releaseDate": "வெளியீட்டு தேதி",
+    "director": "இயக்குனர்",
+    "producer": "தயாரிப்பாளர்",
+    "favorites": "பிடித்தவை",
+    "completed": "முடிக்கப்பட்டது"
+  },
+  "auth": {
+    "login": "உள்நுழை",
+    "logout": "வெளியேறு",
+    "signup": "பதிவு செய்யவும்",
+    "profile": "சுயவிவரம்",
+    "settings": "அமைப்புகள்",
+    "notAuthenticated": "தயவுசெய்து உள்நுழையவும்",
+    "coins": "நாணயங்கள்",
+    "topUp": "மீண்டும் நிரப்புக",
+    "chooseYourExperience": "உங்கள் அனுபவத்தைத் தேர்வு செய்யுங்கள்",
+    "getAccessToPremiumContent": "ப்ரீமியம் உள்ளடக்கத்தை அணுகவும்",
+    "continueWithGoogle": "Google மூலம் தொடரவும்",
+    "termsOfService": "சேவை விதிமுறைகள்",
+    "privacyPolicy": "தனியுரிமைக் கொள்கை",
+    "byContinyingYouAgree": "தொடர்ந்தால், நீங்கள் எங்களது",
+    "and": "மற்றும்",
+    "pleaseLoginFirst": "தயவுசெய்து உள்நுழையவும்"
+  },
+  "dashboard": {
+    "title": "டாஷ்போர்டு",
+    "library": "நூலகம்",
+    "wallet": "பணப்பை",
+    "history": "வரலாறு",
+    "favorites": "பிடித்தவை",
+    "watchlist": "வாட்ச் பட்டியல்",
+    "accountBalance": "கணக்கு தொகை",
+    "myList": "எனது பட்டியல்",
+    "transactionHistory": "கட்டண வரலாறு",
+    "episodesUnlocked": "எபிசோட்கள் அணுகப்பட்டது",
+    "price": "விலை",
+    "coins": "நாணயங்கள்",
+    "uniqueId": "தனிப்பட்ட ID",
+    "paymentGateway": "கட்டண வரலாறு",
+    "date": "தேதி",
+    "movieName": "திரைப்பட பெயர்",
+    "episodeNumber": "எபிசோட் எண்",
+    "unlockTime": "அணுக நேரம்"
+  },
+  "footer": {
+    "about": "பற்றி",
+    "support": "ஆதரவு",
+    "contactUs": "எங்களை தொடர்பு கொள்ளவும்",
+    "privacyPolicy": "தனியுரிமைக் கொள்கை",
+    "termsOfService": "சேவை விதிமுறைகள்",
+    "feedback": "கருத்து",
+    "mediaRelations": "மீடியா மற்றும் பார். உறவுகள்"
+  },
+  "payment": {
+    "enterPaymentDetails": "கட்டண விவரங்களை உள்ளிடவும்",
+    "price": "விலை",
+    "fullName": "முழு பெயர்",
+    "addressLine1": "முகவரி வரி 1",
+    "addressLine2": "முகவரி வரி 2 (விரும்பினால்)",
+    "city": "நகரம்",
+    "state": "மாநிலம்",
+    "postalCode": "அஞ்சல் குறியீடு",
+    "payNow": "இப்போது செலுத்தவும்",
+    "processing": "செயல்படுத்தப்படுகிறது...",
+    "cancel": "ரத்துசெய்",
+    "paymentMethod": "கட்டண முறை",
+    "bonus": "போனஸ்"
+  },
+  "unlock": {
+    "payToContinueWatching": "பார்ப்பதை தொடர செலுத்தவும்",
+    "unlockAtJust": "விலை மிக குறைவாக அணுகல்",
+    "topUpToGet100Bonus": "100% போனஸுக்கு மீண்டும் நிரப்பவும்",
+    "balance": "மீதமுள்ள தொகை"
+  },
+  "video": {
+    "play": "இயக்கு",
+    "pause": "இடைநிறுத்து",
+    "mute": "ஒலி இல்லாது செய்",
+    "unmute": "ஒலியை இயக்கு",
+    "fullscreen": "முழுத்திரை",
+    "exitFullscreen": "முழுத்திரையை விட்டு வெளியேறு",
+    "volume": "ஒலி",
+    "settings": "அமைப்புகள்",
+    "speed": "வேகம்",
+    "quality": "தரம்"
+  },
+  "common": {
+    "loading": "ஏற்றப்படுகிறது...",
+    "error": "பிழை",
+    "success": "வெற்றி",
+    "cancel": "ரத்துசெய்",
+    "save": "சேமி",
+    "delete": "அழி",
+    "edit": "திருத்து",
+    "close": "மூடு",
+    "back": "பின்செல்",
+    "next": "அடுத்தது",
+    "previous": "முந்தையது",
+    "submit": "சமர்ப்பிக்கவும்",
+    "confirm": "உறுதி செய்",
+    "yes": "ஆம்",
+    "no": "இல்லை",
+    "ok": "சரி",
+    "retry": "மீண்டும் முயற்சி செய்",
+    "continue": "தொடரவும்",
+    "all": "அனைத்து",
+    "movies": "திரைப்படங்கள்",
+    "noMoviesFound": "திரைப்படங்கள் எதுவும் இல்லை.",
+    "home": "முகப்பு"
+  },
+  "language": {
+    "selectLanguage": "மொழியைத் தேர்ந்தெடுக்கவும்",
+    "language": "மொழி"
+  },
+  "errors": {
+    "somethingWentWrong": "ஏதோ தவறு ஏற்பட்டுள்ளது",
+    "tryAgain": "தயவுசெய்து மீண்டும் முயற்சிக்கவும்",
+    "networkError": "பிணைய பிழை",
+    "unauthorized": "அனுமதியில்லாத அணுகல்",
+    "invalidCredentials": "தவறான நுழைவு விவரங்கள்",
+    "sessionExpired": "அமர்வு காலாவதியானது"
+  },
+  "notifications": {
+    "movieAddedToList": "படம் உங்கள் பட்டியலில் சேர்க்கப்பட்டது",
+    "movieRemovedFromList": "படம் பட்டியலிலிருந்து அகற்றப்பட்டது",
+    "loginRequired": "தொடர உள்நுழையவும்",
+    "operationSuccessful": "செயல்பாடு வெற்றிகரமாக முடிந்தது",
+    "paymentSuccessful": "கட்டணம் வெற்றிகரமாக முடிந்தது",
+    "paymentFailed": "கட்டணம் தோல்வியடைந்தது",
+    "loginSuccessful": "உள்நுழைவு வெற்றிகரமாக முடிந்தது",
+    "logoutSuccessful": "வெளியேறல் வெற்றிகரமாக முடிந்தது"
+  },
+  "login": {
+    "chooseYourExperience": "உங்கள் அனுபவத்தைத் தேர்ந்தெடுக்கவும்",
+    "getAccessToPremiumContent": "ப்ரீமியம் உள்ளடக்கத்தை அணுகவும்",
+    "continueWithGoogle": "Google மூலம் தொடரவும்",
+    "byContinuingYouAgree": "தொடர்ந்தால், நீங்கள் எங்களது சேவை விதிமுறைகள் மற்றும் தனியுரிமைக் கொள்கைகளுடன் ஒப்பிடுகிறீர்கள்"
+  },
+  "movieDetails": {
+    "play": "இயக்கு",
+    "addToMyList": "எனது பட்டியலில் சேர்க்கவும்",
+    "removeFromMyList": "எனது பட்டியலிலிருந்து அகற்று",
+    "pleaseLoginToAddToList": "பட்டியலில் சேர்க்க உள்நுழையவும்",
+    "remove": "அகற்று",
+    "add": "சேர்க்க"
+  },
+  "episodes": {
+    "home": "முகப்பு",
+    "episode": "எபிசோட்",
+    "fullMovie": "முழு திரைப்படம்",
+    "share": "பகிர்",
+    "plotof": "பிரதிபலிப்பு",
+    "episodeListOf": "எபிசோட் பட்டியல்",
+    "completed": "முடிந்தது",
+    "allEpisodes": "அனைத்து எபிசோட்கள்",
+    "trailer": "டிரைலர்"
+  },
+  "details": {
+    "home": "முகப்பு",
+    "share": "பகிர்",
+    "goToWatching": "பார்ப்பதை தொடரவும்",
+    "addToMyList": "எனது பட்டியலில் சேர்க்கவும்",
+    "plotof": "பிரதிபலிப்பு",
+    "episodeList": "எபிசோட் பட்டியல்",
+    "trailer": "டிரைலர்",
+    "episode": "எபிசோட்",
+    "ep": "EP",
+    "youMightLike": "நீங்கள் இதையும் பார்க்க விரும்பலாம்",
+    "removeFromMyList": "எனது பட்டியலிலிருந்து அகற்று"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "அனைத்து எபிசோட்கள்",
+    "episodes": "எபிசோட்கள்",
+    "moviesAndTVSeries": "திரைப்படங்கள் & தொலைக்காட்சி தொடர்கள்"
+  },
+  "videoError": {
+    "errorOccurred": "வீடியோ பார்வையில் பிழை ஏற்பட்டது"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "ஸ்டோரியூப்க் அப்ப்லிக்கை பதிவிறக்க குறியீட்டை சீக்கிரம் செய்யவும்",
+    "downloadOnIOSOrAndroid": "iOS அல்லது Android இல் பதிவிறக்கவும்"
+  }
+}

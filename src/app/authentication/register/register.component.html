@@ -1,0 +1,78 @@
+<div class="container-fluid login-wrapper d-flex justify-content-center align-items-center">
+
+  <div class="login-card text-center p-4">
+
+    <h2 class="fw-bold text-white">Register on Story Box</h2>
+    <p class="text-light small">
+      Create your account and start enjoying unlimited content.
+    </p>
+
+    <!-- Social Icons -->
+    <div class="d-flex justify-content-center gap-3 my-3">
+      <div class="social-icon google"><i class="bi bi-google"></i></div>
+      <div class="social-icon facebook"><i class="bi bi-facebook"></i></div>
+      <div class="social-icon twitter"><i class="bi bi-twitter"></i></div>
+      <div class="social-icon apple"><i class="bi bi-apple"></i></div>
+    </div>
+
+    <!-- OR Divider -->
+    <div class="divider d-flex align-items-center my-4">
+      <hr class="flex-grow-1">
+      <span class="mx-2 text-light">or</span>
+      <hr class="flex-grow-1">
+    </div>
+
+    <!-- ✅ FORM START -->
+    <form [formGroup]="form" (ngSubmit)="onRegister()">
+
+      <input formControlName="name"
+        type="text"
+        class="form-control bg-dark text-white mb-3"
+        placeholder="Full Name">
+
+      <input formControlName="email"
+        type="email"
+        class="form-control bg-dark text-white mb-3"
+        placeholder="Email">
+
+      <input formControlName="password"
+        type="password"
+        class="form-control bg-dark text-white mb-3"
+        placeholder="Password">
+
+      <input formControlName="confirmPassword"
+        type="password"
+        class="form-control bg-dark text-white mb-3"
+        placeholder="Confirm Password">
+
+
+        <!-- ✅ Success Message -->
+<div *ngIf="successMsg" class="alert alert-success text-start small mb-3">
+  {{ successMsg }}
+</div>
+
+<!-- ❌ Error Message -->
+<div *ngIf="errorMsg" class="alert alert-danger text-start small mb-3">
+  {{ errorMsg }}
+</div>
+      <!-- Error Message -->
+      <div *ngIf="errorMsg" class="alert alert-danger text-start small mb-3">
+        {{ errorMsg }}
+      </div>
+
+      <!-- Button -->
+      <button type="submit" class="btn btn-primary w-100 mb-3">
+        Register
+      </button>
+
+    </form>
+    <!-- ✅ FORM END -->
+
+    <p class="text-light small">
+      Already have an account?
+      <a routerLink="/auth/login" class="text-white fw-bold">Login</a>
+    </p>
+
+  </div>
+
+</div>

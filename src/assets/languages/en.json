@@ -1,0 +1,221 @@
+{
+  "navigation": {
+    "home": "Home",
+    "genre": "Genre",
+    "search": "Search",
+    "history": "History",
+    "myList": "My List",
+    "playedToEpisode": "Played to Episode {{episode}}",
+    "more": "More",
+    "download": "Download",
+    "shorts": "Shorts"
+  },
+  "search": {
+    "placeholder": "Search anything you like",
+    "searchResults": "Search Results",
+    "noResults": "No movies found for \"{query}\"",
+    "viewAllResults": "View all {count} results",
+    "popularSearches": "Popular searches:",
+    "peopleAreSearching": "People are searching",
+    "moviesAndTVSeries": "Movies & TV Series",
+    "noMoviesFound": "No movies found."
+  },
+  "home": {
+    "continueWatching": "Continue Watching",
+    "newMovies": "New Movies",
+    "allMovies": "All Movies",
+    "moreMovies": "More Movies"
+  },
+  "movie": {
+    "watchNow": "Watch Now",
+    "addToList": "Add to List",
+    "removeFromList": "Remove from List",
+    "episodes": "Episodes",
+    "description": "Description",
+    "cast": "Cast",
+    "genre": "Genre",
+    "duration": "Duration",
+    "rating": "Rating",
+    "releaseDate": "Release Date",
+    "director": "Director",
+    "producer": "Producer",
+    "favorites": "Favorites",
+    "completed": "Completed"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Sign Up",
+    "profile": "Profile",
+    "settings": "Settings",
+    "notAuthenticated": "You are not authenticated, please login",
+    "coins": "Coins",
+    "topUp": "Top Up",
+    "chooseYourExperience": "Choose Your Experience",
+    "getAccessToPremiumContent": "Get access to premium content",
+    "continueWithGoogle": "Continue with Google",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "byContinyingYouAgree": "By continuing, you agree to our",
+    "and": "and",
+    "pleaseLoginFirst": "Please login first"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "library": "Library",
+    "wallet": "Wallet",
+    "history": "History",
+    "favorites": "Favorites",
+    "watchlist": "Watchlist",
+    "accountBalance": "Account Balance",
+    "myList": "My List",
+    "transactionHistory": "Transaction History",
+    "episodesUnlocked": "Episodes Unlocked",
+    "price": "Price",
+    "coins": "Coins",
+    "uniqueId": "UniqueID",
+    "paymentGateway": "Payment Gateway",
+    "date": "Date",
+    "movieName": "Movie Name",
+    "episodeNumber": "Episode Number",
+    "unlockTime": "Unlock Time"
+  },
+  "footer": {
+    "about": "ABOUT",
+    "support": "SUPPORT",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "feedback": "Feedback",
+    "mediaRelations": "Media & Public Relations"
+  },
+  "payment": {
+    "enterPaymentDetails": "Enter Payment Details",
+    "price": "Price",
+    "fullName": "Full Name",
+    "addressLine1": "Address Line 1",
+    "addressLine2": "Address Line 2 (Optional)",
+    "city": "City",
+    "state": "State",
+    "postalCode": "Postal Code",
+    "payNow": "Pay Now",
+    "processing": "Processing...",
+    "cancel": "Cancel",
+    "paymentMethod": "Payment Method",
+    "bonus": "Bonus"
+  },
+  "unlock": {
+    "payToContinueWatching": "Pay to continue watching",
+    "unlockAtJust": "unlock at just",
+    "topUpToGet100Bonus": "Top up to get 100% bonus",
+    "balance": "Balance"
+  },
+  "video": {
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "volume": "Volume",
+    "settings": "Settings",
+    "speed": "Speed",
+    "quality": "Quality"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "retry": "Retry",
+    "continue": "Continue",
+    "all": "All",
+    "movies": "Movies",
+    "noMoviesFound": "No movies found.",
+    "home": "Home"
+  },
+  "language": {
+    "selectLanguage": "Select Language",
+    "language": "Language"
+  },
+  "errors": {
+    "somethingWentWrong": "Something went wrong",
+    "tryAgain": "Please try again",
+    "networkError": "Network error",
+    "unauthorized": "Unauthorized access",
+    "invalidCredentials": "Invalid credentials",
+    "sessionExpired": "Session expired"
+  },
+  "notifications": {
+    "movieAddedToList": "Movie added to your list",
+    "movieRemovedFromList": "Movie removed from your list",
+    "loginRequired": "Please login to continue",
+    "operationSuccessful": "Operation completed successfully",
+    "paymentSuccessful": "Payment completed successfully",
+    "paymentFailed": "Payment failed",
+    "loginSuccessful": "Login successful",
+    "logoutSuccessful": "Logout successful"
+  },
+  "login": {
+    "chooseYourExperience": "Choose Your Experience",
+    "getAccessToPremiumContent": "Get access to premium content",
+    "continueWithGoogle": "Continue with Google",
+    "byContinuingYouAgree": "By continuing, you agree to our Terms of Service and Privacy Policy"
+  },
+  "movieDetails": {
+    "play": "Play",
+    "addToMyList": "Add To My List",
+    "removeFromMyList": "Remove from My List",
+    "pleaseLoginToAddToList": "Please login to add to list",
+    "remove": "Remove",
+    "add": "Add"
+  },
+  "episodes": {
+    "home": "Home",
+    "episode": "Episode",
+    "fullMovie": "Full Movie",
+    "share": "Share",
+    "plotof": "Plot of",
+    "episodeListOf": "Episode list of",
+    "completed": "Completed",
+    "allEpisodes": "All Episodes",
+    "trailer": "Trailer"
+  },
+  "details": {
+    "home": "Home",
+    "share": "Share",
+    "goToWatching": "Go to Watching",
+    "addToMyList": "Add to My List",
+    "plotof": "Plot of",
+    "episodeList": "Episode List",
+    "trailer": "Trailer",
+    "episode": "Episode",
+    "ep": "EP",
+    "youMightLike": "You Might Like",
+    "removeFromMyList": "Remove from My List"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "All Episodes",
+    "episodes": "Episodes",
+    "moviesAndTVSeries": "Movies & TV Series"
+  },
+  "videoError": {
+    "errorOccurred": "An error occurred while playing the video"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "Scan QR code to download App",
+    "downloadOnIOSOrAndroid": "Download on iOS or Android"
+  }
+}

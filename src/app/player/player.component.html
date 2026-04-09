@@ -1,0 +1,58 @@
+<main class="video-player container-fluid d-flex flex-row flex-wrap gap-2">
+
+  <!-- LEFT: VIDEO PLAYER -->
+  <section class="player col-12 col-lg-8 mt-4">
+
+    <article class="video-wrapper position-relative">
+
+      <!-- VIDEO -->
+      <video #videoPlayer class="player-video" playsinline></video>
+
+      <!-- LOADER -->
+      <div class="loader" *ngIf="isLoading">
+        <div class="spinner"></div>
+      </div>
+
+    </article>
+
+  </section>
+
+  <!-- RIGHT: MOVIE LIST -->
+  <section class="video-article col-12 col-lg-4 mt-4">
+
+    <h3 class="all-movie-heading">More movies</h3>
+
+    <div class="movie-list" (scroll)="onScroll($event)">
+
+      <div 
+        class="movie-card" 
+        *ngFor="let movie of movies" 
+        (click)="selectMovie(movie)"
+      >
+
+        <img 
+          [src]="'https://image.tmdb.org/t/p/w200' + movie.poster_path" 
+          class="card-img"
+        >
+
+        <div class="card-content">
+          <h6>{{movie.title}}</h6>
+          <p>⭐ {{movie.vote_average}}</p>
+
+          <p class="text-secondary small">
+            {{movie.overview | slice:0:60}}...
+          </p>
+        </div>
+
+      </div>
+
+      <!-- 🔄 API Loader -->
+      <div *ngIf="loading" class="text-center mt-2">
+        Loading...
+      </div>
+
+    </div>
+
+  </section>
+
+</main>

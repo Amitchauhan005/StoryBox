@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "హోమ్",
+    "genre": "శైలి",
+    "search": "శోధన",
+    "history": "చరిత్ర",
+    "myList": "నా జాబితా",
+    "playedToEpisode": "{{episode}} ఎపిసోడ్ వరకు ప్లే చేయబడింది",
+    "more": "మరిన్ని",
+    "download": "డౌన్లోడ్"
+  },
+  "search": {
+    "placeholder": "మీకు నచ్చినదాన్ని శోధించండి",
+    "searchResults": "శోధన ఫలితాలు",
+    "noResults": "\"{query}\" కోసం ఏ సినిమాలు కనుగొనబడలేదు",
+    "viewAllResults": "{count} ఫలితాలను 모두 చూడండి",
+    "popularSearches": "ప్రాచుర్యంలో ఉన్న శోధనలు:",
+    "peopleAreSearching": "ప్రజలు శోధిస్తున్నారు",
+    "moviesAndTVSeries": "సినిమాలు & టీవీ సీరీస్",
+    "noMoviesFound": "సినిమాలు కనుగొనబడలేదు."
+  },
+  "home": {
+    "continueWatching": "చూడడం కొనసాగించండి",
+    "newMovies": "కొత్త సినిమాలు",
+    "allMovies": "అన్ని సినిమాలు",
+    "moreMovies": "ఇంకా సినిమాలు"
+  },
+  "movie": {
+    "watchNow": "ఇప్పుడు చూడండి",
+    "addToList": "జాబితాలో చేర్చు",
+    "removeFromList": "జాబితా నుండి తీసివేయి",
+    "episodes": "ఎపిసోడ్‌లు",
+    "description": "వివరణ",
+    "cast": "నటీనటులు",
+    "genre": "శైలి",
+    "duration": "వ్యవధి",
+    "rating": "రేటింగ్",
+    "releaseDate": "విడుదల తేదీ",
+    "director": "దర్శకుడు",
+    "producer": "నిర్మాత",
+    "favorites": "ఇష్టమైనవి",
+    "completed": "పూర్తయింది"
+  },
+  "auth": {
+    "login": "లాగిన్",
+    "logout": "లాగ్ అవుట్",
+    "signup": "సైన్ అప్",
+    "profile": "ప్రొఫైల్",
+    "settings": "సెట్టింగులు",
+    "notAuthenticated": "దయచేసి లాగిన్ అవ్వండి",
+    "coins": "నాణేలు",
+    "topUp": "టాప్ అప్ చేయండి",
+    "chooseYourExperience": "మీ అనుభవాన్ని ఎంచుకోండి",
+    "getAccessToPremiumContent": "ప్రీమియం కంటెంట్‌కు యాక్సెస్ పొందండి",
+    "continueWithGoogle": "Google తో కొనసాగించండి",
+    "termsOfService": "సేవా నిబంధనలు",
+    "privacyPolicy": "గోప్యతా విధానం",
+    "byContinyingYouAgree": "కొనసాగించడం ద్వారా మీరు మా",
+    "and": "మరియు",
+    "pleaseLoginFirst": "దయచేసి లాగిన్ అవ్వండి"
+  },
+  "dashboard": {
+    "title": "డాష్‌బోర్డ్",
+    "library": "లైబ్రరీ",
+    "wallet": "వాలెట్",
+    "history": "చరిత్ర",
+    "favorites": "ఇష్టమైనవి",
+    "watchlist": "వాచ్‌లిస్ట్",
+    "accountBalance": "ఖాతా బ్యాలెన్స్",
+    "myList": "నా జాబితా",
+    "transactionHistory": "లెన్-దేన చరిత్ర",
+    "episodesUnlocked": "ఎపిసోడ్లు అనులాక్ చేయబడింది",
+    "price": "ధర",
+    "coins": "నాణేలు",
+    "uniqueId": "అదిశీయ ఐడి",
+    "paymentGateway": "చెల్లింపు గేట్‌వే",
+    "date": "తేదీ",
+    "movieName": "సినిమా పేరు",
+    "episodeNumber": "ఎపిసోడ్ నంబర్",
+    "unlockTime": "అనులాక్ సమయం"
+  },
+  "footer": {
+    "about": "గురించి",
+    "support": "సహాయం",
+    "contactUs": "మమ్మల్ని సంప్రదించండి",
+    "privacyPolicy": "గోప్యతా విధానం",
+    "termsOfService": "సేవా నిబంధనలు",
+    "feedback": "ప్రతిస్పందన",
+    "mediaRelations": "మీడియా & పీఆర్ సంబంధాలు"
+  },
+  "payment": {
+    "enterPaymentDetails": "చెల్లింపు వివరాలు నమోదు చేయండి",
+    "price": "ధర",
+    "fullName": "పూర్తి పేరు",
+    "addressLine1": "చిరునామా వరుస 1",
+    "addressLine2": "చిరునామా వరుస 2 (ఐచ్చికం)",
+    "city": "నగరం",
+    "state": "రాష్ట్రం",
+    "postalCode": "పిన్ కోడ్",
+    "payNow": "ఇప్పుడే చెల్లించండి",
+    "processing": "ప్రాసెసింగ్...",
+    "cancel": "రద్దు చేయండి",
+    "paymentMethod": "చెల్లింపు పద్ధతి",
+    "bonus": "బోనస్"
+  },
+  "unlock": {
+    "payToContinueWatching": "చూడడం కొనసాగించేందుకు చెల్లించండి",
+    "unlockAtJust": "కేవలం ఈ ధరకు అన్‌లాక్ చేయండి",
+    "topUpToGet100Bonus": "100% బోనస్ కోసం టాప్ అప్ చేయండి",
+    "balance": "మిగిలిన బ్యాలెన్స్"
+  },
+  "video": {
+    "play": "ప్లే",
+    "pause": "పాజ్",
+    "mute": "మ్యూట్",
+    "unmute": "అన్‌మ్యూట్",
+    "fullscreen": "పూర్తి తెర",
+    "exitFullscreen": "పూర్తి తెరనుండి బయటకు రా",
+    "volume": "వాల్యూం",
+    "settings": "సెట్టింగులు",
+    "speed": "వేగం",
+    "quality": "నాణ్యత"
+  },
+  "common": {
+    "loading": "లోడవుతోంది...",
+    "error": "లోపం",
+    "success": "విజయం",
+    "cancel": "రద్దు",
+    "save": "సేవ్ చేయి",
+    "delete": "తొలగించు",
+    "edit": "ఎడిట్ చేయి",
+    "close": "మూసివేయి",
+    "back": "వెనక్కి",
+    "next": "తర్వాత",
+    "previous": "ముందు",
+    "submit": "సమర్పించు",
+    "confirm": "నిర్ధారించు",
+    "yes": "అవును",
+    "no": "కాదు",
+    "ok": "సరే",
+    "retry": "మళ్ళీ ప్రయత్నించండి",
+    "continue": "కొనసాగించండి",
+    "all": "అన్ని",
+    "movies": "సినిమాలు",
+    "noMoviesFound": "సినిమాలు కనుగొనబడలేదు.",
+    "home": "హోమ్"
+  },
+  "language": {
+    "selectLanguage": "భాషను ఎంచుకోండి",
+    "language": "భాష"
+  },
+  "errors": {
+    "somethingWentWrong": "ఏదో తప్పుడు జరిగింది",
+    "tryAgain": "దయచేసి మళ్ళీ ప్రయత్నించండి",
+    "networkError": "నెట్‌వర్క్ లోపం",
+    "unauthorized": "అనుమతి లేని ప్ర‌వేశం",
+    "invalidCredentials": "తప్పు లాగిన్ వివరాలు",
+    "sessionExpired": "సెషన్ గడువు ముగిసింది"
+  },
+  "notifications": {
+    "movieAddedToList": "సినిమా మీ జాబితాలోకి చేర్చబడింది",
+    "movieRemovedFromList": "సినిమా జాబితా నుండి తొలగించబడింది",
+    "loginRequired": "కొనసాగించేందుకు లాగిన్ అవ్వండి",
+    "operationSuccessful": "చర్య విజయవంతంగా పూర్తయ్యింది",
+    "paymentSuccessful": "చెల్లింపు విజయవంతం",
+    "paymentFailed": "చెల్లింపు విఫలమైంది",
+    "loginSuccessful": "లాగిన్ విజయవంతం",
+    "logoutSuccessful": "లాగౌట్ విజయవంతం"
+  },
+  "login": {
+    "chooseYourExperience": "మీ అనుభవాన్ని ఎంచుకోండి",
+    "getAccessToPremiumContent": "ప్రీమియం కంటెంట్‌కు యాక్సెస్ పొందండి",
+    "continueWithGoogle": "Google తో కొనసాగించండి",
+    "byContinuingYouAgree": "కొనసాగించడం ద్వారా మీరు మా సేవా నిబంధనలు మరియు గోప్యతా విధానంతో సమానంగా ఉంటారు"
+  },
+  "movieDetails": {
+    "play": "ప్లే",
+    "addToMyList": "నా జాబితాకు చేర్చు",
+    "removeFromMyList": "నా జాబితా నుండి తీసివేయి",
+    "pleaseLoginToAddToList": "జాబితాకు చేర్చడానికి లాగిన్ అవ్వండి",
+    "remove": "తీసివేయి",
+    "add": "చేర్చు"
+  },
+  "episodes": {
+    "home": "హోమ్",
+    "episode": "ఎపిసోడ్",
+    "fullMovie": "పూర్తి సినిమా",
+    "share": "పంచు",
+    "plotof": "ప్లాట్",
+    "episodeListOf": "ఎపిసోడ్ జాబితా",
+    "completed": "పూర్తయింది",
+    "allEpisodes": "అన్ని ఎపిసోడ్లు",
+    "trailer": "ట్రెయిలర్"
+  },
+  "details": {
+    "home": "హోమ్",
+    "share": "పంచు",
+    "goToWatching": "చూడడం ప్రారంభించండి",
+    "addToMyList": "నా జాబితాకు చేర్చు",
+    "plotof": "ప్లాట్",
+    "episodeList": "ఎపిసోడ్ జాబితా",
+    "trailer": "ట్రెయిలర్",
+    "episode": "ఎపిసోడ్",
+    "ep": "ఎపిసోడ్",
+    "youMightLike": "మీరు ఇష్టపడవచ్చు",
+    "removeFromMyList": "నా జాబితా నుండి తీసివేయి"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "అన్ని ఎపిసోడ్లు",
+    "episodes": "ఎపిసోడ్లు",
+    "moviesAndTVSeries": "సినిమాలు & టీవీ సీరీస్"
+  },
+  "videoError": {
+    "errorOccurred": "వీడియో ప్లే చేయడంలో పొరబాధం జరిగింది"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "స్టోరియూబ్క్ ఆప్ డౌన్లోడ్ చేయడానికి QR కోడ్ స్క్యాన్ చేయండి",
+    "downloadOnIOSOrAndroid": "iOS లేదా Android లో డౌన్లోడ్ చేయండి"
+  }
+}

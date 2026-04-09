@@ -1,0 +1,151 @@
+ <!-- <div class="hero-section" *ngIf="movie"
+[style.background-image]="'url(https://image.tmdb.org/t/p/original'+movie.backdrop_path+')'">
+
+<div class="overlay">
+
+<div class="container hero-content">
+
+<h1 class="movie-title">
+{{movie.title}}
+</h1>
+
+<div class="movie-meta">
+
+<span class="rating">
+⭐ {{movie.vote_average}}
+</span>
+
+<span>
+{{movie.release_date}}
+</span>
+
+<span *ngIf="movie.runtime">
+{{movie.runtime}} min
+</span>
+
+</div>
+
+<div class="genres">
+
+<span *ngFor="let g of movie.genres">
+{{g.name}}
+</span>
+
+</div>
+
+<p class="overview">
+{{movie.overview}}
+</p>
+
+<div class="buttons">
+
+<button class="watch-btn">
+▶ Watch Now
+</button>
+
+<button class="add-btn">
+＋ My List
+</button>
+
+</div>
+
+<div class="cast">
+
+<b>Cast:</b>
+
+<span *ngFor="let c of cast; let i=index">
+{{c.name}}{{i<2?',':''}}
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div> 
+
+ -->
+
+
+ <div class="hero-section" *ngIf="movie" [style.background-image]="'url(https://image.tmdb.org/t/p/original'+movie.backdrop_path+')'">
+    <div class="overlay">
+        <div class="container hero-content">
+            
+            <!-- Prime badge replaced with storybox -->
+            <div class="badge-wrapper ">
+                <span class="storybox-badge">
+                     storybox
+                </span>
+                <span class="new-series-badge">NEW SERIES</span>
+                <span class="trending-badge">#2 in India</span>
+            </div>
+
+            <h1 class="movie-title">{{movie.title}}</h1>
+            
+            <!-- Creator/Director line from Guy Ritchie (image reference) -->
+            <div class="creator-line" *ngIf="movie.creator">
+                From {{movie.creator}}, witness the legendary origin story...
+            </div>
+            
+            <!-- Description/Overview with image-like styling -->
+            <p class="overview">
+                {{movie.overview}}
+            </p>
+
+            <!-- Genre tags and IMDb rating exactly like image -->
+            <div class="genre-rating-wrapper">
+                <span class="genre-tag" *ngFor="let g of movie.genres">{{g.name}}</span>
+                <span class="imdb-rating">
+                    <i class="bi bi-star-fill"></i> IMDb {{movie.vote_average}}/10
+                </span>
+                <span class="year">{{movie.release_date | date:'yyyy'}}</span>
+                <span class="seasons" *ngIf="movie.number_of_seasons">{{movie.number_of_seasons}} season</span>
+            </div>
+
+            <!-- Cast section exactly like image -->
+            <div class="cast-section">
+                <span class="cast-label">Cast:</span>
+                <span class="cast-names">
+                    <span *ngFor="let c of cast; let i=index">
+                        {{c.name}}{{i < 2 ? ', ' : ''}}
+                    </span>
+                </span>
+            </div>
+
+            <!-- Watch with storybox membership (replaces prime) -->
+            <div class="membership-badge">
+                <i class=""></i> Watch with a storybox membership
+                <span class="age-rating">U/A 16+</span>
+                <span class="ad-badge">AD</span>
+            </div>
+
+            <!-- Episode info and action buttons like image -->
+            <div class="episode-section">
+                <span class="season-badge">Season 1</span>
+                <div class="action-links">
+                  <a routerLink="/episodes" class="action-link">Episodes</a>
+                 <a routerLink="/related" class="action-link">Related</a>
+                 <a routerLink="/details" class="action-link">Details</a>
+                </div>
+            </div>
+
+            <!-- Buttons from your existing code (keeping both styles) -->
+            <div class="buttons">
+            <button class="watch-btn" routerLink="/player">
+             <i class="bi bi-play-fill"></i> Watch Now
+               </button> 
+
+                <button class="add-btn">
+                    <i class="bi bi-plus"></i> My List
+                </button>
+
+                  <button class="add-btn">
+                    <i class="bi bi-plus"></i> Subscription
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,13 @@
+<div class="modal" (click)="close.emit()">
+  <div class="box" (click)="$event.stopPropagation()">
+
+    <h3>Share</h3>
+
+    <button (click)="copyLink()">🔗 Copy Link</button>
+    <button (click)="shareWhatsApp()">📱 WhatsApp</button>
+    <button (click)="shareTelegram()">✈️ Telegram</button>
+
+    <button (click)="close.emit()">Cancel</button>
+
+  </div>
+</div>

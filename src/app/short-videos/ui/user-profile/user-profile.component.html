@@ -1,0 +1,47 @@
+<div class="modal" (click)="close.emit()">
+  <div class="profile-box" (click)="$event.stopPropagation()">
+
+    <!-- Header -->
+    <div class="header">
+      <h3>Profile</h3>
+      <button (click)="close.emit()">✖</button>
+    </div>
+
+    <!-- User Info -->
+    <div class="user-info">
+      <img 
+        src="https://via.placeholder.com/80" 
+        alt="profile" 
+        class="profile-img"
+      />
+
+      <h4>{{ user.user || 'User Name' }}</h4>
+      <p>@{{ user.user || 'username' }}</p>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div>
+        <strong>{{ user.followers || 120 }}</strong>
+        <span>Followers</span>
+      </div>
+      <div>
+        <strong>{{ user.following || 80 }}</strong>
+        <span>Following</span>
+      </div>
+      <div>
+        <strong>{{ user.reels || 10 }}</strong>
+        <span>Reels</span>
+      </div>
+    </div>
+
+    <!-- Follow Button -->
+    <button class="follow-btn" (click)="toggleFollow()">
+      {{ isFollowing ? 'Unfollow' : 'Follow' }}
+    </button>
+
+    <!-- Close -->
+    <button class="close-btn" (click)="close.emit()">Close</button>
+
+  </div>
+</div>

@@ -1,0 +1,33 @@
+
+* {
+  scrollbar-width: none !important;        
+  -ms-overflow-style: none !important;     
+}
+
+*::-webkit-scrollbar {
+  display: none !important;               
+}
+
+.wrapper {
+  width: 100%;
+  height: calc(100dvh - var(--header-height));   
+  margin-top: var(--header-height);
+  background: black;        
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.reels-container {
+  width: 400px;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+   scrollbar-width: none;           
+  -ms-overflow-style: none; 
+  border: 3px;
+}
+
+.reels-container::-webkit-scrollbar {
+  display: none;                   
+}

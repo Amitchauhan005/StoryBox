@@ -1,0 +1,244 @@
+<section class="container-fluid bg-black reward-all-section px-2 px-md-4">
+
+  <!-- Main Reward Panel -->
+  <div class="container reward-section text-center text-white mb-4">
+
+    <!-- Alert -->
+    <div *ngIf="showTopAlert"
+      class="alert alert-{{topAlertType}} alert-dismissible fade show mt-3 mx-auto w-100 w-md-50"
+      role="alert">
+
+      {{ topAlertMessage }}
+      <button type="button" class="btn-close" (click)="showTopAlert=false"></button>
+    </div>
+
+    <!-- Heading -->
+    <h3 class="fw-bold fs-4 fs-md-3">
+      <i class="fa-solid fa-gem me-2" style="color: #FFB347;"></i>
+      Earn Rewards
+    </h3>
+
+    <!-- Sub -->
+    <p class="mb-1 my-reward-sub small">
+      <i class="fa-regular fa-star me-1"></i>
+      My Reward Coin
+      <i class="fa-regular fa-coins ms-1"></i>
+    </p>
+
+    <!-- Coins -->
+    <h1 class="fw-bold coin-value">{{ userCoins }}</h1>
+
+    <!-- Days -->
+    <div class="row justify-content-center g-2 mt-4">
+
+      <div class="col-4 col-sm-3 col-md-2 col-lg-1"
+           *ngFor="let day of days">
+
+        <div class="day-box w-100" [ngClass]="getDayClass(day)">
+
+          <ng-container *ngIf="day.missed">
+            <i class="fa-solid fa-x"></i>
+            <p>{{ day.label }}</p>
+          </ng-container>
+
+          <ng-container *ngIf="!day.missed">
+            <h6 *ngIf="!day.claimed">+{{ day.reward }}</h6>
+            <i *ngIf="day.claimed" class="fa-solid fa-check-circle"></i>
+            <p>{{ day.label }}</p>
+          </ng-container>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Check In -->
+    <button class="btn btn-danger mt-4 mt-md-5 w-100 w-md-auto px-4 px-md-5 chek-btn"
+      (click)="checkIn()">
+      <i class="fa-regular fa-calendar-check me-2"></i>
+      Check In
+    </button>
+
+  </div>
+
+  <!-- REFERRAL -->
+  <div class="container mb-5">
+    <div class="referral-card p-3 p-md-4 text-white">
+
+      <div class="row g-4 align-items-stretch">
+
+        <!-- LEFT -->
+        <div class="col-12 col-lg-5">
+
+          <div class="referral-header text-center rounded-4"
+            style="cursor:pointer"
+            (click)="shareNative()">
+
+            <i class="fa-solid fa-share-nodes fa-2x mb-2"></i>
+            <h3 class="fw-bold mb-0 fs-5 fs-md-4">Share & Earn</h3>
+            <p class="mb-0 opacity-75 small">
+              Invite friends, get
+              <span class="fw-bold text-warning">50 points</span>
+            </p>
+          </div>
+
+          <!-- Stats -->
+          <div class="mt-3 mt-md-4 text-center">
+            <div class="referral-stats d-flex justify-content-between flex-wrap gap-3">
+
+              <div class="flex-fill">
+                <p class="mb-0 small">Total Joined</p>
+                <h5 class="fw-bold text-warning mb-0">{{ joinedReferralsCount }}</h5>
+              </div>
+
+              <div class="flex-fill">
+                <p class="mb-0 small">Earned</p>
+                <h5 class="fw-bold text-success mb-0">{{ totalEarned }}</h5>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="col-12 col-lg-7">
+
+          <!-- Referral Code -->
+          <div class="mb-3">
+            <label class="form-label fw-semibold small">
+              <i class="fa-regular fa-id-card me-1"></i>
+              Your Referral Code
+            </label>
+
+            <div class="referral-code-box d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-between">
+
+              <span class="text-center text-sm-start">{{ referralCode }}</span>
+
+              <button class="btn btn-sm btn-outline-warning w-100 w-sm-auto"
+                (click)="copyCode()">
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+            </div>
+
+            <small class="text-secondary">
+              Share this code with friends. +50 coins per referral!
+            </small>
+          </div>
+
+          <!-- Share -->
+          <div *ngIf="showShareOptions">
+
+            <input class="form-control mb-2" [value]="generatedLink" readonly>
+
+            <div class="share-btns row g-2">
+
+              <div class="col-6 col-md-3">
+                <button class="btn btn-outline-light w-100" (click)="share('whatsapp')">
+                  <i class="fab fa-whatsapp me-1"></i> WhatsApp
+                </button>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <button class="btn btn-outline-light w-100" (click)="share('telegram')">
+                  <i class="fab fa-telegram me-1"></i> Telegram
+                </button>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <button class="btn btn-outline-light w-100" (click)="share('twitter')">
+                  <i class="fab fa-twitter me-1"></i> Twitter
+                </button>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <button class="btn btn-outline-light w-100" (click)="copyLink()">
+                  <i class="fa-regular fa-link me-1"></i> Copy Link
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Referral List -->
+          <div class="mt-4">
+            <div class="d-flex justify-content-between mb-2">
+              <span class="fw-semibold small">
+                <i class="fa-solid fa-user-plus me-1"></i>
+                Recent Referrals
+              </span>
+              <span class="badge-refer">+50 each</span>
+            </div>
+
+            <div class="small overflow-auto" style="max-height:140px">
+
+              <div *ngIf="joinedReferralsCount === 0"
+                class="text-center text-secondary py-2">
+                No joined referrals yet
+              </div>
+
+              <div *ngFor="let ref of referrals">
+                <div *ngIf="ref.joined"
+                  class="referral-list-item d-flex justify-content-between">
+                  <span>{{ ref.name }}</span>
+                  <span class="text-warning">+50</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- WATCH ADS -->
+  <div class="container card-container mt-4 text-white">
+
+    <h4 class="mb-4 watch-heading">
+      <i class="fa-solid fa-circle-play me-2"></i>
+      Watch Ads · Boost Coins
+    </h4>
+
+    <!-- Alert -->
+    <div *ngIf="showAdsAlert"
+      class="alert alert-{{adsAlertType}} alert-dismissible fade show mt-3 mx-auto w-100 w-md-50"
+      role="alert">
+
+      {{ adsAlertMessage }}
+      <button type="button" class="btn-close" (click)="showAdsAlert=false"></button>
+    </div>
+
+    <div class="row g-3">
+
+      <div class="col-12 col-sm-6 col-md-4"
+           *ngFor="let ad of ads">
+
+        <div class="ads-card">
+
+          <i class="fa-solid fa-tv"></i>
+          <h5>+{{ ad }}</h5>
+
+          <button class="btn w-100"
+            [ngClass]="ad === 10 ? 'btn-danger' : 'btn-dark'"
+            (click)="watchAd(ad)">
+            Watch Ad
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    ✨ Daily check-in + referral rewards ✨
+  </footer>
+
+</section>

@@ -1,0 +1,129 @@
+body {
+  background: black !important;
+}
+
+.container-fluid {
+  margin-top: -50px !important;
+}
+
+.trend-heading {
+  margin-left: 38px !important;
+}
+
+.movie-row {
+  display: flex;
+  gap: 5px;
+  padding: 0 20px;
+}
+
+/* Card */
+.movie-card {
+  margin-left: 10px;
+  flex: 0 0 calc(20% - 16px);
+  border: none;
+  background: transparent;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Image */
+.movie-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Hover */
+.movie-card:hover {
+  transform: scale(1.1) translateY(-10px);
+  z-index: 10;
+}
+
+/* Rank number */
+.rank-number {
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.8;
+}
+
+/* Carousel buttons */
+.custom-btn-prev,
+.custom-btn-next {
+  width: 60px;
+}
+
+.custom-btn-prev {
+  left: 10px;
+}
+
+.custom-btn-next {
+  right: 10px;
+}
+
+/* Arrow style */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablet - 3 cards */
+@media (max-width: 992px) {
+  .movie-card {
+    flex: 0 0 calc(33.33% - 16px);
+  }
+
+  .rank-number {
+    font-size: 60px;
+    bottom: -15px;
+  }
+
+  .movie-card img {
+    height: 200px;
+  }
+}
+
+/* Mobile Large - 2 cards */
+@media (max-width: 768px) {
+  .movie-card {
+    flex: 0 0 calc(50% - 16px);
+  }
+
+  .rank-number {
+    font-size: 50px;
+    bottom: -12px;
+  }
+
+  .movie-card img {
+    height: 170px;
+  }
+
+  .trend-heading {
+    margin-left: 20px !important;
+  }
+}
+
+/* Mobile Small - 1 card */
+@media (max-width: 480px) {
+  .movie-card {
+    flex: 0 0 calc(100% - 16px);
+  }
+
+  .rank-number {
+    font-size: 40px;
+    bottom: -10px;
+  }
+
+  .movie-card img {
+    height: 200px;
+  }
+}

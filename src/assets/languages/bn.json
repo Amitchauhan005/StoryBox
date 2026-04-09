@@ -1,0 +1,222 @@
+{
+  "navigation": {
+    "home": "হোম",
+    "genre": "বিভাগ",
+    "search": "অনুসন্ধান",
+    "history": "ইতিহাস",
+    "myList": "আমার তালিকা",
+    "playedToEpisode": "{{episode}} পর্ব পর্যন্ত দেখা হয়েছে",
+    "more": "আরও",
+    "download": "ডাউনলোড"
+  },
+  "search": {
+    "placeholder": "আপনার পছন্দমতো কিছু খুঁজুন",
+    "searchResults": "অনুসন্ধানের ফলাফল",
+    "noResults": "\"{query}\" এর জন্য কোনো মুভি পাওয়া যায়নি",
+    "viewAllResults": "সব {count} ফলাফল দেখুন",
+    "popularSearches": "জনপ্রিয় অনুসন্ধানসমূহ:",
+    "peopleAreSearching": "মানুষ খুঁজছে",
+    "moviesAndTVSeries": "মুভি ও টিভি সিরিজ",
+    "noMoviesFound": "কোনো মুভি পাওয়া যায়নি।"
+  },
+  "home": {
+    "continueWatching": "দেখা চালিয়ে যান",
+    "newMovies": "নতুন মুভি",
+    "allMovies": "সব মুভি",
+    "moreMovies": "আরও মুভি"
+  },
+  "movie": {
+    "watchNow": "এখনই দেখুন",
+    "addToList": "তালিকায় যোগ করুন",
+    "removeFromList": "তালিকা থেকে সরান",
+    "episodes": "পর্ব",
+    "description": "বর্ণনা",
+    "cast": "অভিনেতা তালিকা",
+    "genre": "বিভাগ",
+    "duration": "সময়কাল",
+    "rating": "রেটিং",
+    "releaseDate": "রিলিজ তারিখ",
+    "director": "পরিচালক",
+    "producer": "প্রযোজক",
+    "favorites": "পছন্দসমূহ",
+    "completed": "সম্পন্ন হয়েছে"
+  },
+  "auth": {
+    "login": "লগইন",
+    "logout": "লগআউট",
+    "signup": "সাইন আপ",
+    "profile": "প্রোফাইল",
+    "settings": "সেটিংস",
+    "notAuthenticated": "আপনি লগইন করেননি, দয়া করে লগইন করুন",
+    "coins": "কয়েন",
+    "topUp": "টপ আপ",
+    "chooseYourExperience": "আপনার অভিজ্ঞতা বেছে নিন",
+    "getAccessToPremiumContent": "প্রিমিয়াম কনটেন্ট দেখতে অ্যাক্সেস নিন",
+    "continueWithGoogle": "গুগল দিয়ে চালিয়ে যান",
+    "termsOfService": "সেবার শর্তাবলী",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "byContinyingYouAgree": "চালিয়ে যাওয়ার মাধ্যমে আপনি আমাদের",
+    "and": "এবং",
+    "pleaseLoginFirst": "দয়া করে লগইন করুন"
+  },
+  "dashboard": {
+    "title": "ড্যাশবোর্ড",
+    "library": "লাইব্রেরি",
+    "wallet": "ওয়ালেট",
+    "history": "ইতিহাস",
+    "favorites": "পছন্দসমূহ",
+    "watchlist": "ওয়াচলিস্ট",
+    "accountBalance": "হিসাব ব্যালেন্স",
+    "myList": "আমার তালিকা",
+    "transactionHistory": "লেনদেনের ইতিহাস",
+    "episodesUnlocked": "পর্ব আনলকানো",
+    "price": "মূল্য",
+    "coins": "কয়েন",
+    "uniqueId": "অনন্য আইডি",
+    "paymentGateway": "পেমেন্ট গেটওয়্যার",
+    "date": "তারিখ",
+    "movieName": "চলচ্চিত্রের নাম",
+    "episodeNumber": "পর্বের নং",
+    "unlockTime": "আনলকানোর সময়"
+  },
+  "footer": {
+    "about": "সম্পর্কে",
+    "support": "সাপোর্ট",
+    "contactUs": "যোগাযোগ করুন",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsOfService": "সেবার শর্তাবলী",
+    "feedback": "প্রতিক্রিয়া",
+    "mediaRelations": "গণমাধ্যম ও জনসংযোগ"
+  },
+  "payment": {
+    "enterPaymentDetails": "পেমেন্টের তথ্য দিন",
+    "price": "মূল্য",
+    "fullName": "পুরো নাম",
+    "addressLine1": "ঠিকানা লাইন ১",
+    "addressLine2": "ঠিকানা লাইন ২ (ঐচ্ছিক)",
+    "city": "শহর",
+    "state": "রাজ্য",
+    "postalCode": "পোস্ট কোড",
+    "payNow": "এখনই পরিশোধ করুন",
+    "processing": "প্রসেসিং হচ্ছে...",
+    "cancel": "বাতিল",
+    "paymentMethod": "পেমেন্ট পদ্ধতি",
+    "bonus": "বোনাস"
+  },
+  "unlock": {
+    "payToContinueWatching": "দেখা চালিয়ে যেতে টাকা দিন",
+    "unlockAtJust": "মাত্র এই মূল্যে আনলক করুন",
+    "topUpToGet100Bonus": "১০০% বোনাস পেতে টপ আপ করুন",
+    "balance": "ব্যালেন্স"
+  },
+  "video": {
+    "play": "চালান",
+    "pause": "বিরতি",
+    "mute": "নীরব",
+    "unmute": "নীরবতা বাতিল",
+    "fullscreen": "পূর্ণ পর্দা",
+    "exitFullscreen": "পূর্ণ পর্দা থেকে বের হোন",
+    "volume": "ভলিউম",
+    "settings": "সেটিংস",
+    "speed": "গতি",
+    "quality": "গুণমান"
+  },
+  "common": {
+    "loading": "লোড হচ্ছে...",
+    "error": "ত্রুটি",
+    "success": "সফলতা",
+    "cancel": "বাতিল",
+    "save": "সংরক্ষণ",
+    "delete": "মুছে ফেলুন",
+    "edit": "সম্পাদনা",
+    "close": "বন্ধ করুন",
+    "back": "ফিরে যান",
+    "next": "পরবর্তী",
+    "previous": "পূর্ববর্তী",
+    "submit": "জমা দিন",
+    "confirm": "নিশ্চিত করুন",
+    "yes": "হ্যাঁ",
+    "no": "না",
+    "ok": "ঠিক আছে",
+    "retry": "আবার চেষ্টা করুন",
+    "continue": "চালিয়ে যান",
+    "all": "সব",
+    "movies": "চলচ্চিত্র",
+    "noMoviesFound": "কোনো মুভি পাওয়া যায়নি।",
+    "home": "হোম"
+  },
+  "language": {
+    "selectLanguage": "ভাষা নির্বাচন করুন",
+    "language": "ভাষা"
+  },
+  "errors": {
+    "somethingWentWrong": "কিছু ভুল হয়েছে",
+    "tryAgain": "আবার চেষ্টা করুন",
+    "networkError": "নেটওয়ার্ক ত্রুটি",
+    "unauthorized": "অননুমোদিত প্রবেশ",
+    "invalidCredentials": "অবৈধ তথ্য",
+    "sessionExpired": "সেশন শেষ হয়েছে"
+  },
+  "notifications": {
+    "movieAddedToList": "মুভি আপনার তালিকায় যোগ হয়েছে",
+    "movieRemovedFromList": "মুভি তালিকা থেকে সরানো হয়েছে",
+    "loginRequired": "চালিয়ে যেতে দয়া করে লগইন করুন",
+    "operationSuccessful": "অপারেশন সফল হয়েছে",
+    "paymentSuccessful": "পেমেন্ট সফল হয়েছে",
+    "paymentFailed": "পেমেন্ট ব্যর্থ হয়েছে",
+    "loginSuccessful": "লগইন সফল হয়েছে",
+    "logoutSuccessful": "লগআউট সফল হয়েছে"
+  },
+  "login": {
+    "chooseYourExperience": "আপনার অভিজ্ঞতা বেছে নিন",
+    "getAccessToPremiumContent": "প্রিমিয়াম কনটেন্ট দেখতে অ্যাক্সেস নিন",
+    "continueWithGoogle": "গুগল দিয়ে চালিয়ে যান",
+    "byContinuingYouAgree": "চালিয়ে যাওয়ার মাধ্যমে আপনি আমাদের সেবার শর্তাবলী এবং গোপনীয়তা নীতি সম্মত হন"
+  },
+  "movieDetails": {
+    "play": "চালান",
+    "addToMyList": "আমার তালিকায় যোগ করুন",
+    "removeFromMyList": "আমার তালিকা থেকে সরান",
+    "pleaseLoginToAddToList": "তালিকায় যোগ করতে দয়া করে লগইন করুন",
+    "remove": "সরান",
+    "add": "যোগ করুন"
+  },
+  "episodes": {
+    "home": "হোম",
+    "episode": "পর্ব",
+    "fullMovie": "সম্পূর্ণ চলচ্চিত্র",
+    "share": "শেয়ার",
+    "plotof": "প্লট অফ",
+    "episodeListOf": "পর্ব তালিকা অফ",
+    "completed": "সম্পন্ন হয়েছে",
+    "allEpisodes": "সব পর্ব",
+    "trailer": "ট্রেলার"
+  },
+  "details": {
+    "home": "হোম",
+    "share": "শেয়ার",
+    "goToWatching": "দেখা চালিয়ে যান",
+    "addToMyList": "আমার তালিকায় যোগ করুন",
+    "removeFromMyList": "আমার তালিকা থেকে সরান",
+    "remove": "সরান",
+    "add": "যোগ করুন",
+    "ep": "পর্ব",
+    "youMightLike": "আপনি ইচ্ছা করতে পারেন",
+    "plotof": "প্লট অফ",
+    "trailer": "ট্রেলার",
+    "episode": "পর্ব",
+    "episodeList": "পর্ব তালিকা"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "সব পর্ব",
+    "episodes": "পর্ব",
+    "moviesAndTVSeries": "চলচ্চিত্র ও টিভি সিরিজ"
+  },
+  "videoError": {
+    "errorOccurred": "ভিডিও প্লে করতে সমস্যা হয়েছে"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "স্টোরিবক্স অ্যাপ ডাউনলোড করতে কোড স্ক্যান করুন",
+    "downloadOnIOSOrAndroid": "iOS বা Android এ ডাউনলোড করুন"
+  }
+}

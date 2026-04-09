@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "होम",
+    "genre": "शैली",
+    "search": "खोजें",
+    "history": "इतिहास",
+    "myList": "मेरी सूची",
+    "playedToEpisode": "एपिसोड {{episode}} तक देखा गया",
+    "more": "और",
+    "download": "डाउनलोड"
+  },
+  "search": {
+    "placeholder": "जो चाहें खोजें",
+    "searchResults": "खोज परिणाम",
+    "noResults": "\"{query}\" के लिए कोई फिल्म नहीं मिली",
+    "viewAllResults": "सभी {count} परिणाम देखें",
+    "popularSearches": "लोकप्रिय खोजें:",
+    "peopleAreSearching": "लोग खोज रहे हैं",
+    "moviesAndTVSeries": "फिल्में और टीवी सीरीज़",
+    "noMoviesFound": "कोई फिल्म नहीं मिली।"
+  },
+  "home": {
+    "continueWatching": "देखना जारी रखें",
+    "newMovies": "नई फिल्में",
+    "allMovies": "सभी फिल्में",
+    "moreMovies": "और फिल्में"
+  },
+  "movie": {
+    "watchNow": "अब देखें",
+    "addToList": "सूची में जोड़ें",
+    "removeFromList": "सूची से हटाएं",
+    "episodes": "एपिसोड",
+    "description": "विवरण",
+    "cast": "कलाकार",
+    "genre": "शैली",
+    "duration": "अवधि",
+    "rating": "रेटिंग",
+    "releaseDate": "रिलीज़ तिथि",
+    "director": "निर्देशक",
+    "producer": "निर्माता",
+    "favorites": "पसंदीदा",
+    "completed": "पूर्ण"
+  },
+  "auth": {
+    "login": "लॉग इन करें",
+    "logout": "लॉग आउट करें",
+    "signup": "साइन अप करें",
+    "profile": "प्रोफ़ाइल",
+    "settings": "सेटिंग्स",
+    "notAuthenticated": "आप प्रमाणित नहीं हैं, कृपया लॉगिन करें",
+    "coins": "सिक्के",
+    "topUp": "टॉप अप करें",
+    "chooseYourExperience": "अपना अनुभव चुनें",
+    "getAccessToPremiumContent": "प्रीमियम कंटेंट तक पहुँचें",
+    "continueWithGoogle": "Google से जारी रखें",
+    "termsOfService": "सेवा की शर्तें",
+    "privacyPolicy": "गोपनीयता नीति",
+    "byContinyingYouAgree": "जारी रखते हुए, आप हमारी शर्तों से सहमत होते हैं",
+    "and": "और",
+    "pleaseLoginFirst": "कृपया पहले लॉग इन करें"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "library": "लाइब्रेरी",
+    "wallet": "वॉलेट",
+    "history": "इतिहास",
+    "favorites": "पसंदीदा",
+    "watchlist": "वॉचलिस्ट",
+    "accountBalance": "खाता बैलेंस",
+    "myList": "मेरी सूची",
+    "transactionHistory": "लेन-देन इतिहास",
+    "episodesUnlocked": "एपिसोड अनलॉक किए गए",
+    "price": "मूल्य",
+    "coins": "सिक्के",
+    "uniqueId": "अद्वितीय आईडी",
+    "paymentGateway": "भुगतान गेटवे",
+    "date": "तिथि",
+    "movieName": "फिल्म का नाम",
+    "episodeNumber": "एपिसोड का नंबर",
+    "unlockTime": "अनलॉक का समय"
+  },
+  "footer": {
+    "about": "हमारे बारे में",
+    "support": "सहायता",
+    "contactUs": "हमसे संपर्क करें",
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsOfService": "सेवा की शर्तें",
+    "feedback": "प्रतिपुष्टि",
+    "mediaRelations": "मीडिया एवं जनसंपर्क"
+  },
+  "payment": {
+    "enterPaymentDetails": "भुगतान विवरण दर्ज करें",
+    "price": "मूल्य",
+    "fullName": "पूरा नाम",
+    "addressLine1": "पता पंक्ति 1",
+    "addressLine2": "पता पंक्ति 2 (वैकल्पिक)",
+    "city": "शहर",
+    "state": "राज्य",
+    "postalCode": "पिन कोड",
+    "payNow": "अब भुगतान करें",
+    "processing": "प्रक्रिया में...",
+    "cancel": "रद्द करें",
+    "paymentMethod": "भुगतान का तरीका",
+    "bonus": "बोनस"
+  },
+  "unlock": {
+    "payToContinueWatching": "देखते रहने के लिए भुगतान करें",
+    "unlockAtJust": "सिर्फ इस पर अनलॉक करें",
+    "topUpToGet100Bonus": "100% बोनस पाने के लिए टॉप अप करें",
+    "balance": "बैलेंस"
+  },
+  "video": {
+    "play": "चलाएँ",
+    "pause": "रोकें",
+    "mute": "मूक करें",
+    "unmute": "आवाज़ चालू करें",
+    "fullscreen": "पूर्ण स्क्रीन",
+    "exitFullscreen": "पूर्ण स्क्रीन से बाहर निकलें",
+    "volume": "वॉल्यूम",
+    "settings": "सेटिंग्स",
+    "speed": "गति",
+    "quality": "गुणवत्ता"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "next": "आगे",
+    "previous": "पिछला",
+    "submit": "जमा करें",
+    "confirm": "पुष्टि करें",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "ok": "ठीक है",
+    "retry": "पुनः प्रयास करें",
+    "continue": "जारी रखें",
+    "all": "सभी",
+    "movies": "फिल्में",
+    "noMoviesFound": "कोई फिल्म नहीं मिली।",
+    "home": "होम"
+  },
+  "language": {
+    "selectLanguage": "भाषा चुनें",
+    "language": "भाषा"
+  },
+  "errors": {
+    "somethingWentWrong": "कुछ गलत हो गया",
+    "tryAgain": "कृपया पुनः प्रयास करें",
+    "networkError": "नेटवर्क त्रुटि",
+    "unauthorized": "अनधिकृत प्रवेश",
+    "invalidCredentials": "अमान्य प्रमाण-पत्र",
+    "sessionExpired": "सत्र समाप्त हो गया है"
+  },
+  "notifications": {
+    "movieAddedToList": "फिल्म को आपकी सूची में जोड़ा गया है",
+    "movieRemovedFromList": "फिल्म को आपकी सूची से हटा दिया गया है",
+    "loginRequired": "कृपया आगे बढ़ने के लिए लॉगिन करें",
+    "operationSuccessful": "क्रिया सफलतापूर्वक पूरी हुई",
+    "paymentSuccessful": "भुगतान सफल रहा",
+    "paymentFailed": "भुगतान विफल रहा",
+    "loginSuccessful": "लॉगिन सफल रहा",
+    "logoutSuccessful": "लॉगआउट सफल रहा"
+  },
+  "login": {
+    "chooseYourExperience": "अपना अनुभव चुनें",
+    "getAccessToPremiumContent": "प्रीमियम कंटेंट तक पहुँचें",
+    "continueWithGoogle": "Google से जारी रखें",
+    "byContinuingYouAgree": "जारी रखते हुए, आप हमारी शर्तों से सहमत होते हैं"
+  },
+  "movieDetails": {
+    "play": "चलाएँ",
+    "addToMyList": "मेरी सूची में जोड़ें",
+    "removeFromMyList": "मेरी सूची से हटाएं",
+    "pleaseLoginToAddToList": "कृपया लॉगिन करें जोड़ने के लिए",
+    "remove": "हटाएं",
+    "add": "जोड़ें"
+  },
+  "episodes": {
+    "home": "होम",
+    "episode": "एपिसोड",
+    "fullMovie": "पूर्ण फिल्म",
+    "share": "शेयर",
+    "plotof": "प्लॉट ऑफ",
+    "episodeListOf": "एपिसोड सूची ऑफ",
+    "completed": "पूर्ण",
+    "allEpisodes": "सभी एपिसोड",
+    "trailer": "ट्रेलर"
+  },
+  "details": {
+    "home": "होम",
+    "share": "शेयर",
+    "goToWatching": "देखने के लिए जाएं",
+    "addToMyList": "मेरी सूची में जोड़ें",
+    "plotof": "प्लॉट ऑफ",
+    "episodeList": "एपिसोड सूची",
+    "trailer": "ट्रेलर",
+    "episode": "एपिसोड",
+    "ep": "EP",
+    "youMightLike": "आप इसे भी देख सकते हैं",
+    "removeFromMyList": "मेरी सूची से हटाएं"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "सभी एपिसोड",
+    "episodes": "एपिसोड",
+    "moviesAndTVSeries": "फिल्में और टीवी सीरीज़"
+  },
+  "videoError": {
+    "errorOccurred": "भिडियो चलाने में त्रुटि हुई"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "ऐप डाउनलोड करने के लिए QR कोड स्कैन करें",
+    "downloadOnIOSOrAndroid": "iOS या Android पर डाउनलोड करें"
+  }
+}

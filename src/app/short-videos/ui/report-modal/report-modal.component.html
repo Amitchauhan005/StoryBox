@@ -1,0 +1,18 @@
+<div class="modal" (click)="close.emit()">
+  <div class="box" (click)="$event.stopPropagation()">
+
+    <h3>Report</h3>
+
+    <div *ngFor="let r of reasons">
+      <input 
+        type="radio" 
+        name="reason" 
+        [value]="r"
+        [(ngModel)]="selected"> {{ r }}
+    </div>
+
+    <button (click)="close.emit()">Cancel</button>
+    <button (click)="report()">Report</button>
+
+  </div>
+</div>

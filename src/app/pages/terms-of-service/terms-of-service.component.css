@@ -1,0 +1,355 @@
+/* // Container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: #000;
+  color: #cbd5e1;
+  
+  @media (min-width: 768px) {
+    padding: 0 30px;
+  }
+}
+
+/* // Main heading styles */
+.templateheading1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  
+  @media (min-width: 768px) {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 992px) {
+    font-size: 3rem;
+  }
+}
+
+/* // Heading 2 styles */
+.templateheading2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f8f9fa;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  
+  @media (min-width: 768px) {
+    font-size: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  @media (min-width: 992px) {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+}
+
+/* // Heading 3 styles */
+.templateheading3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e9ecef;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  
+  @media (min-width: 768px) {
+    font-size: 1.35rem;
+    margin-top: 1.75rem;
+  }
+  
+  @media (min-width: 992px) {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+
+/* // Paragraph styles */
+.templateParagraph {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #d1d5db;
+  margin-bottom: 1rem;
+  text-align: justify;
+  
+  @media (min-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+  }
+  
+  @media (min-width: 992px) {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+}
+
+/* // List item styles */
+.templatelist {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #d1d5db;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  
+  @media (min-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* // Link styles */
+.templateanchor {
+  color: #60a5fa;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  
+  &:hover {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+  
+  &:active {
+    color: #2563eb;
+  }
+}
+
+/* // Underline text */
+.templateunderline {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* // Bold text */
+.bold, .fw-bold {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* // List styling */
+ul.no-style, ul.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  
+  li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    
+    &::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #60a5fa;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+/* // Lowercase roman style list */
+ul.lower-style {
+  list-style-type: lower-alpha;
+  padding-left: 1.5rem;
+  
+  li {
+    margin-bottom: 0.75rem;
+    color: #d1d5db;
+    
+    &::marker {
+      color: #60a5fa;
+      font-weight: 600;
+    }
+  }
+}
+
+/* // Circle style list */
+ul.circle-style {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+  
+  li {
+    margin-bottom: 0.75rem;
+    color: #d1d5db;
+    
+    &::marker {
+      color: #60a5fa;
+    }
+  }
+}
+
+/* // Nested list styling */
+ul ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  
+  li {
+    padding-left: 1rem;
+    
+    &::before {
+      content: "◦";
+      color: #9ca3af;
+    }
+  }
+}
+
+/* // White text utility */
+.text-white {
+  color: #ffffff !important;
+}
+
+/* // Margin utilities */
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-md-5 {
+  @media (min-width: 768px) {
+    margin-top: 3rem !important;
+  }
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+/* // Padding utilities */
+.pt-4 {
+  padding-top: 1.5rem !important;
+}
+
+.pt-md-5 {
+  @media (min-width: 768px) {
+    padding-top: 3rem !important;
+  }
+}
+
+/* // Link styling for email and contact */
+a[href^="mailto"] {
+  color: #60a5fa;
+  word-break: break-all;
+  
+  &:hover {
+    color: #3b82f6;
+  }
+}
+
+/* // Responsive typography adjustments */
+@media (max-width: 767px) {
+  .templateheading1 {
+    font-size: 1.75rem;
+  }
+  
+  .templateheading2 {
+    font-size: 1.35rem;
+  }
+  
+  .templateheading3 {
+    font-size: 1.15rem;
+  }
+  
+  .templateParagraph, .templatelist {
+    font-size: 0.9rem;
+  }
+}
+
+/* // Dark mode support (if needed) */
+@media (prefers-color-scheme: dark) {
+  .templateParagraph, .templatelist {
+    color: #cbd5e1;
+  }
+  
+  .templateheading1, .templateheading2, .templateheading3 {
+    color: #f1f5f9;
+  }
+}
+
+/* // Print styles */
+@media print {
+  .container {
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  .templateanchor {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .templateheading1, .templateheading2, .templateheading3 {
+    color: #000;
+    page-break-after: avoid;
+  }
+  
+  .templateParagraph, .templatelist {
+    color: #000;
+    page-break-inside: avoid;
+  }
+  
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+}
+
+/* // Scroll behavior for anchor links */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* // Custom selection color */
+::selection {
+  background-color: #60a5fa;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #60a5fa;
+  color: #ffffff;
+}
+
+/* // Focus styles for accessibility */
+.templateanchor:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* // Smooth transitions */
+.templateanchor, button, .templatelist {
+  transition: all 0.2s ease-in-out;
+}
+
+/* // Custom scrollbar (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #60a5fa;
+  border-radius: 4px;
+  
+  &:hover {
+    background: #3b82f6;
+  }
+}

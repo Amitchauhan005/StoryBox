@@ -1,0 +1,14 @@
+<div class="movie-section">
+
+  <div *ngFor="let category of categories">
+    <h2 class="section-title">{{ category.title }}</h2>
+
+    <div class="movie-row">
+      <div class="movie-card" *ngFor="let movie of category.movies">
+        <img [src]="movie.img" [alt]="movie.name">
+        <p>{{ movie.name }}</p>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,253 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-dark px-4 custom-navbar">
+
+  <a class="navbar-brand d-flex align-items-center" (click)="toggleMenu()">
+    <img src="mainLogo.9b0103f3.png" width="40" height="40" class="me-2">
+    <span class="brand-text">Storybox</span>
+  </a>
+
+  <ul class="navbar-nav ms-5">
+
+    <li class="nav-item">
+      <a (click)="goHome()" class="nav-link text-white">Home</a>
+    </li>
+
+    <li class="nav-item">
+      <a (click)="goAbout()" class="nav-link text-white">About</a>
+    </li>
+
+    <li class="nav-item">
+      <a (click)="goContact()" class="nav-link text-white">Contact</a>
+    </li>
+
+    <li class="nav-item">
+      <a (click)="goSubscription()" class="nav-link text-white">Subscription</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link text-white">Shorts</a>
+    </li>
+
+  </ul>
+
+  <div class="ms-auto d-flex align-items-center gap-3">
+
+    <input
+      type="text"
+      class="search-input"
+      [ngClass]="{'active': searchOpen}"
+      placeholder="Search movies...">
+
+    <i class="fa fa-search text-white search-icon"
+       (click)="toggleSearch()"></i>
+
+  <button class="btn reward-btn bg-white" routerLink="/reward">
+  <i class="fa-solid fa-crown"></i>
+  Reward
+</button>
+
+
+    <button class="btn sign-btn" (click)="openLogin()">Sign In</button>
+
+  </div>
+
+</nav>
+
+
+<div class="login-overlay" *ngIf="loginOpen">
+
+  <div class="login-card text-center p-4">
+
+    <span class="close-btn" (click)="closeLogin()">✖</span>
+
+    <h2 class="fw-bold text-white">Login to Story Box</h2>
+
+    <p class="text-light small">
+      Login to continue enjoying uninterrupted video and personalised experience.
+    </p>
+
+    <div class="d-flex justify-content-center gap-3 my-3">
+
+     <div class="social-icon google">
+        <i class="bi bi-google"></i>
+      </div>
+
+      <div class="social-icon facebook">
+        <i class="bi bi-facebook"></i>
+      </div>
+
+      <div class="social-icon twitter">
+        <i class="bi bi-twitter"></i>
+      </div>
+
+      <div class="social-icon apple">
+        <i class="bi bi-apple"></i>
+      </div>
+
+    </div>
+
+    <div class="divider d-flex align-items-center my-3">
+      <hr class="flex-grow-1">
+      <span class="mx-2 text-light">or</span>
+      <hr class="flex-grow-1">
+    </div>
+
+    <input
+      type="text"
+      class="form-control bg-dark text-white mb-3"
+      placeholder="Enter email or mobile number ">
+
+
+    <button class="btn btn-secondary w-100 mb-3">
+      Login
+    </button>
+
+    <p class="text-light small">
+      New to Story Box ?
+      <a href="#" class="text-white fw-bold">Register</a>
+    </p>
+
+  </div>
+
+</div>
+
+
+ -->
+
+
+
+<!-- HEADER -->
+<header>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark px-2 px-md-4 custom-navbar flex-nowrap" >
+
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" (click)="toggleMenu()">
+      <img src="mainLogo.9b0103f3.png" width="40" height="40" class="me-2">
+      <span class="brand-text d-none d-sm-inline">Storybox</span>
+      <span class="brand-text d-inline d-sm-none">SB</span>
+    </a>
+
+    <!-- Desktop & Mobile Menu - Always visible but wraps -->
+    <ul class="navbar-nav flex-row flex-wrap mx-2 mx-lg-auto">
+      <li class="nav-item">
+        <a (click)="goHome()" class="nav-link text-white px-1 px-sm-2 px-xl-3">Home</a>
+      </li>
+      <li class="nav-item">
+        <a (click)="goAbout()" class="nav-link text-white px-1 px-sm-2 px-xl-3">About</a>
+      </li>
+      <li class="nav-item">
+        <a (click)="goContact()" class="nav-link text-white px-1 px-sm-2 px-xl-3">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a (click)="goSubscription()" class="nav-link text-white px-1 px-sm-2 px-xl-3">Subscription</a>
+      </li>
+      <li class="nav-item">
+        <a (click)="goShortVideos()" class="nav-link text-white px-1 px-sm-2 px-xl-3">Shorts</a>
+      </li>
+    </ul>
+
+    <!-- Right Side -->
+    <aside class="ms-auto d-flex align-items-center gap-1 gap-sm-2 gap-md-3 flex-nowrap">
+
+      <!-- Search -->
+      <div class="d-flex align-items-center position-relative">
+        <input
+          type="text"
+          class="search-input form-control py-1"
+          [ngClass]="{'active': searchOpen}"
+          placeholder="Search...">
+        <i class="fa fa-search text-white search-icon"
+           (click)="toggleSearch()"></i>
+      </div>
+
+      <!-- Reward Button -->
+      <button class="btn reward-btn d-flex align-items-center gap-1 px-2 px-sm-3 py-1" routerLink="/reward">
+        <i class="fa-solid fa-crown"></i>
+        <span class="d-none d-sm-inline">Reward</span>
+      </button>
+
+<button
+  *ngIf="!isLoggedIn"
+  class="btn sign-btn d-flex align-items-center gap-1 px-2 px-sm-3 py-1"
+  (click)="goToLogin()">
+  <i class="fa-solid fa-user d-block d-sm-none"></i>
+  <span class="d-none d-sm-inline">Sign In</span>
+</button>
+
+<button
+  *ngIf="isLoggedIn"
+  class="btn sign-btn d-flex align-items-center gap-1 px-2 px-sm-3 py-1"
+  (click)="onLogout()">
+  <i class="fa-solid fa-right-from-bracket d-block d-sm-none"></i>
+  <span class="d-none d-sm-inline">Logout</span>
+</button>
+
+    </aside>
+
+  </nav>
+
+</header>
+
+<!-- MAIN CONTENT -->
+<main>
+
+  <!-- <section class="login-overlay" *ngIf="loginOpen">
+
+    <article class="login-card text-center p-3 p-sm-4">
+
+      <span class="close-btn" (click)="closeLogin()">✖</span>
+
+      <h2 class="fw-bold text-white h4">Login to Story Box</h2>
+
+      <p class="text-light small px-2">
+        Login to continue enjoying uninterrupted video and personalised experience.
+      </p>
+
+      <section class="d-flex justify-content-center gap-2 gap-sm-3 my-3">
+
+        <span class="social-icon google">
+          <i class="bi bi-google"></i>
+        </span>
+
+        <span class="social-icon facebook">
+          <i class="bi bi-facebook"></i>
+        </span>
+
+        <span class="social-icon twitter">
+          <i class="bi bi-twitter"></i>
+        </span>
+
+        <span class="social-icon apple">
+          <i class="bi bi-apple"></i>
+        </span>
+
+      </section>
+
+      <section class="divider d-flex align-items-center my-3">
+        <hr class="flex-grow-1">
+        <span class="mx-2 text-light small">or</span>
+        <hr class="flex-grow-1">
+      </section>
+
+      <form>
+        <input
+          type="text"
+          class="form-control bg-dark text-white mb-3 py-2"
+          placeholder="Email or mobile number">
+      </form>
+
+      <button class="btn btn-secondary w-100 mb-3 py-2">
+        Login
+      </button>
+
+      <p class="text-light small mb-0">
+        New to Story Box?
+        <a href="#" class="text-white fw-bold text-decoration-none">Register</a>
+      </p>
+
+    </article>
+
+  </section> -->
+
+</main>

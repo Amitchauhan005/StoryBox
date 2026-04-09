@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "ہوم",
+    "genre": "صنف",
+    "search": "تلاش کریں",
+    "history": "تاریخ",
+    "myList": "میری فہرست",
+    "playedToEpisode": "قسط {{episode}} تک دیکھی گئی",
+    "more": "مزید",
+    "download": "ڈاؤن لوڈ"
+  },
+  "search": {
+    "placeholder": "جو چاہیں تلاش کریں",
+    "searchResults": "تلاش کے نتائج",
+    "noResults": "\"{query}\" کے لیے کوئی فلم نہیں ملی",
+    "viewAllResults": "تمام {count} نتائج دیکھیں",
+    "popularSearches": "مشہور تلاشیں:",
+    "peopleAreSearching": "لوگ تلاش کر رہے ہیں",
+    "moviesAndTVSeries": "فلمیں اور ٹی وی سیریز",
+    "noMoviesFound": "کوئی فلم نہیں ملی۔"
+  },
+  "home": {
+    "continueWatching": "دیکھنا جاری رکھیں",
+    "newMovies": "نئی فلمیں",
+    "allMovies": "تمام فلمیں",
+    "moreMovies": "مزید فلمیں"
+  },
+  "movie": {
+    "watchNow": "ابھی دیکھیں",
+    "addToList": "فہرست میں شامل کریں",
+    "removeFromList": "فہرست سے ہٹائیں",
+    "episodes": "اقساط",
+    "description": "تفصیل",
+    "cast": "اداکار",
+    "genre": "صنف",
+    "duration": "دورانیہ",
+    "rating": "درجہ بندی",
+    "releaseDate": "ریلیز کی تاریخ",
+    "director": "ہدایتکار",
+    "producer": "پروڈیوسر",
+    "favorites": "پسندیدہ",
+    "completed": "مکمل"
+  },
+  "auth": {
+    "login": "لاگ ان کریں",
+    "logout": "لاگ آؤٹ کریں",
+    "signup": "سائن اپ کریں",
+    "profile": "پروفائل",
+    "settings": "ترتیبات",
+    "notAuthenticated": "براہ کرم لاگ ان کریں",
+    "coins": "سکے",
+    "topUp": "رقم شامل کریں",
+    "chooseYourExperience": "اپنا تجربہ منتخب کریں",
+    "getAccessToPremiumContent": "پریمیم مواد تک رسائی حاصل کریں",
+    "continueWithGoogle": "گوگل کے ساتھ جاری رکھیں",
+    "termsOfService": "سروس کی شرائط",
+    "privacyPolicy": "رازداری کی پالیسی",
+    "byContinyingYouAgree": "جاری رکھ کر، آپ ہماری",
+    "and": "اور",
+    "pleaseLoginFirst": "براہ کرم لاگ ان کریں"
+  },
+  "dashboard": {
+    "title": "ڈیش بورڈ",
+    "library": "لائبریری",
+    "wallet": "والیٹ",
+    "history": "تاریخ",
+    "favorites": "پسندیدہ",
+    "watchlist": "واچ لسٹ",
+    "accountBalance": "حساب بالنس",
+    "myList": "میری فہرست",
+    "transactionHistory": "تاریخ لاگ",
+    "episodesUnlocked": "اقساط آزاد",
+    "price": "قیمت",
+    "coins": "سکے",
+    "uniqueId": "منحصر ہوئے ID",
+    "paymentGateway": "ادائیگی کا گیٹ ویی",
+    "date": "تاریخ",
+    "movieName": "فلم کا نام",
+    "episodeNumber": "اقساط کا نمبر",
+    "unlockTime": "اقساط کا وقت"
+  },
+  "footer": {
+    "about": "کے بارے میں",
+    "support": "مدد",
+    "contactUs": "ہم سے رابطہ کریں",
+    "privacyPolicy": "رازداری کی پالیسی",
+    "termsOfService": "سروس کی شرائط",
+    "feedback": "رائے",
+    "mediaRelations": "میڈیا اور عوامی تعلقات"
+  },
+  "payment": {
+    "enterPaymentDetails": "ادائیگی کی تفصیلات درج کریں",
+    "price": "قیمت",
+    "fullName": "مکمل نام",
+    "addressLine1": "پتہ لائن 1",
+    "addressLine2": "پتہ لائن 2 (اختیاری)",
+    "city": "شہر",
+    "state": "ریاست",
+    "postalCode": "ڈاک کوڈ",
+    "payNow": "ابھی ادا کریں",
+    "processing": "عمل جاری ہے...",
+    "cancel": "منسوخ کریں",
+    "paymentMethod": "ادائیگی کا طریقہ",
+    "bonus": "بونس"
+  },
+  "unlock": {
+    "payToContinueWatching": "دیکھنا جاری رکھنے کے لیے ادائیگی کریں",
+    "unlockAtJust": "صرف اتنے میں ان لاک کریں",
+    "topUpToGet100Bonus": "100٪ بونس حاصل کرنے کے لیے رقم شامل کریں",
+    "balance": "بیلنس"
+  },
+  "video": {
+    "play": "چلائیں",
+    "pause": "روکیں",
+    "mute": "آواز بند کریں",
+    "unmute": "آواز کھولیں",
+    "fullscreen": "مکمل اسکرین",
+    "exitFullscreen": "مکمل اسکرین سے باہر نکلیں",
+    "volume": "آواز",
+    "settings": "ترتیبات",
+    "speed": "رفتار",
+    "quality": "معیار"
+  },
+  "common": {
+    "loading": "لوڈ ہو رہا ہے...",
+    "error": "خرابی",
+    "success": "کامیاب",
+    "cancel": "منسوخ کریں",
+    "save": "محفوظ کریں",
+    "delete": "حذف کریں",
+    "edit": "ترمیم کریں",
+    "close": "بند کریں",
+    "back": "پیچھے",
+    "next": "اگلا",
+    "previous": "پچھلا",
+    "submit": "جمع کریں",
+    "confirm": "تصدیق کریں",
+    "yes": "ہاں",
+    "no": "نہیں",
+    "ok": "ٹھیک ہے",
+    "retry": "دوبارہ کوشش کریں",
+    "continue": "جاری رکھیں",
+    "all": "تمام",
+    "movies": "فلمیں",
+    "noMoviesFound": "کوئی فلم نہیں ملی۔",
+    "home": "ہوم"
+  },
+  "language": {
+    "selectLanguage": "زبان منتخب کریں",
+    "language": "زبان"
+  },
+  "errors": {
+    "somethingWentWrong": "کچھ غلط ہو گیا",
+    "tryAgain": "براہ کرم دوبارہ کوشش کریں",
+    "networkError": "نیٹ ورک کی خرابی",
+    "unauthorized": "غیر مجاز رسائی",
+    "invalidCredentials": "غلط اسناد",
+    "sessionExpired": "سیشن ختم ہو گیا"
+  },
+  "notifications": {
+    "movieAddedToList": "فلم آپ کی فہرست میں شامل کر دی گئی ہے",
+    "movieRemovedFromList": "فلم آپ کی فہرست سے ہٹا دی گئی ہے",
+    "loginRequired": "براہ کرم جاری رکھنے کے لیے لاگ ان کریں",
+    "operationSuccessful": "عمل کامیابی سے مکمل ہوا",
+    "paymentSuccessful": "ادائیگی کامیاب رہی",
+    "paymentFailed": "ادائیگی ناکام ہو گئی",
+    "loginSuccessful": "لاگ ان کامیاب",
+    "logoutSuccessful": "لاگ آؤٹ کامیاب"
+  },
+  "login": {
+    "chooseYourExperience": "اپنا تجربہ منتخب کریں",
+    "getAccessToPremiumContent": "پریمیم مواد تک رسائی حاصل کریں",
+    "continueWithGoogle": "گوگل کے ساتھ جاری رکھیں",
+    "byContinuingYouAgree": "جاری رکھ کر، آپ ہماری خدمت کی شرائط اور رازداری کی پالیسی سے متفق ہیں"
+  },
+  "movieDetails": {
+    "play": "چلائیں",
+    "addToMyList": "میری فہرست میں شامل کریں",
+    "removeFromMyList": "میری فہرست سے ہٹائیں",
+    "pleaseLoginToAddToList": "میری فہرست میں شامل کرنے کے لیے لاگ ان کریں",
+    "remove": "ہٹائیں",
+    "add": "شامل کریں"
+  },
+  "episodes": {
+    "home": "ہوم",
+    "episode": "اقساط",
+    "fullMovie": "مکمل فلم",
+    "share": "شیئر",
+    "plotof": "پلوٹ",
+    "episodeListOf": "اقساط کی فہرست",
+    "completed": "مکمل",
+    "allEpisodes": "تمام اقساط",
+    "trailer": "تریلر"
+  },
+  "details": {
+    "home": "ہوم",
+    "share": "شیئر",
+    "goToWatching": "دیکھنا جاری رکھیں",
+    "addToMyList": "میری فہرست میں شامل کریں",
+    "plotof": "پلوٹ",
+    "episodeList": "اقساط کی فہرست",
+    "trailer": "تریلر",
+    "episode": "اقساط",
+    "ep": "EP",
+    "youMightLike": "آپ یہ بھی دیکھ سکتے ہیں",
+    "removeFromMyList": "میری فہرست سے ہٹائیں"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "تمام اقساط",
+    "episodes": "اقساط",
+    "moviesAndTVSeries": "فلمیں اور ٹی وی سیریز"
+  },
+  "videoError": {
+    "errorOccurred": "ویڈیو پلے کرنے میں خرابی ہوئی"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": " ایپلیکیشن کو ڈاؤن لوڈ کرنے کے لیے QR کوڈ سکین کریں",
+    "downloadOnIOSOrAndroid": "iOS یا Android پر ڈاؤن لوڈ کریں"
+  }
+}

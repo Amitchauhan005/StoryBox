@@ -1,0 +1,402 @@
+ /* .hero-section{
+height:90vh;
+background-size:cover;
+background-position:center;
+position:relative;
+display:flex;
+align-items:center;
+}
+
+.overlay{
+width:100%;
+height:100%;
+background:linear-gradient(
+to right,
+rgba(0,0,0,0.95) 20%,
+rgba(0,0,0,0.6) 50%,
+rgba(0,0,0,0.1) 100%
+);
+display:flex;
+align-items:center;
+}
+
+.hero-content{
+color:white;
+max-width:600px;
+}
+
+.movie-title{
+font-size:64px;
+font-weight:800;
+margin-bottom:10px;
+}
+
+.movie-meta{
+display:flex;
+gap:20px;
+margin-bottom:15px;
+color:#ccc;
+}
+
+.genres span{
+margin-right:10px;
+background:#222;
+padding:5px 12px;
+border-radius:20px;
+font-size:14px;
+}
+
+.overview{
+margin-top:20px;
+line-height:1.6;
+color:#ddd;
+}
+
+.buttons{
+margin-top:25px;
+display:flex;
+gap:15px;
+}
+
+.watch-btn{
+background:white;
+color:black;
+padding:10px 25px;
+border:none;
+border-radius:5px;
+font-weight:600;
+}
+
+.add-btn{
+background:rgba(255,255,255,0.2);
+color:white;
+padding:10px 25px;
+border:none;
+border-radius:5px;
+}
+
+.cast{
+margin-top:20px;
+color:#bbb;
+} 
+
+ */
+
+
+
+
+
+ /* Hero Section - exact match with image */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: white ;
+     /* background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 30%, rgba(0,0,0,0.4) 60%, transparent 100%);  */
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 30%, rgba(0,0,0,0.4) 60%, transparent 100%);
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    max-width: 900px;
+    padding: 2rem;    
+    /* border: 2px solid red; */
+}
+
+/* Badge styles exactly like image */
+.badge-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.storybox-badge {
+      background: linear-gradient(135deg, #FE972F, #FE7369, #FE2C95);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.storybox-badge i {
+    font-size: 1rem;
+}
+
+.new-series-badge {
+    background: rgba(255,255,255,0.2);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-left: 3px solid #ffd700;
+}
+
+.trending-badge {
+    color: #ffd700;
+    font-weight: 600;
+    font-size: 0.95rem;
+    background: rgba(0,0,0,0.5);
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+/* Title styling */
+.movie-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+/* Creator line */
+.creator-line {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #f0f0f0;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+/* Overview/Description */
+.overview {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    max-width: 600px;
+}
+
+/* Genre and rating section */
+.genre-rating-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.genre-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    backdrop-filter: blur(5px);
+}
+
+.imdb-rating {
+    background: rgba(0,0,0,0.6);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.imdb-rating i {
+    color: #f5c518;
+}
+
+.year, .seasons {
+    color: #d0d0d0;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+/* Cast section */
+.cast-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.cast-label {
+    font-weight: 600;
+    color: #aaa;
+}
+
+.cast-names {
+    color: white;
+    font-weight: 500;
+}
+
+/* Membership badge */
+.membership-badge {
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(5px);
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    font-weight: 500;
+}
+
+.membership-badge i {
+    color: #00a8e1;  /* storybox brand color */
+    font-size: 1.2rem;
+}
+
+.age-rating {
+    background: rgba(255,255,255,0.2);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.ad-badge {
+    background: #ffd700;
+    color: black;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* Episode section */
+.episode-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.season-badge {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #ffd700;
+}
+
+.action-links {
+    display: flex;
+    gap: 25px;
+}
+
+.action-link {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.2s;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.action-link.active {
+    color: white;
+    border-bottom-color: #00a8e1;
+}
+
+.action-link:hover {
+    color: white;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.watch-btn {
+   background: linear-gradient(135deg, #FE972F, #FE7369, #FE2C95);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.watch-btn:hover {
+    background: #0099cc;
+    transform: scale(1.05);
+}
+
+.add-btn {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    transition: all 0.2s;
+}
+
+.add-btn:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-content {
+        bottom: 15%;
+        left: 3%;
+        max-width: 90%;
+    }
+    
+    .movie-title {
+        font-size: 2.5rem;
+    }
+    
+    .episode-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .badge-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+/* Movie meta from your existing code - keep for compatibility */
+.movie-meta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}

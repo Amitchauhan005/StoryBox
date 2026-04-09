@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "Nyumbani",
+    "genre": "Aina",
+    "search": "Tafuta",
+    "history": "Historia",
+    "myList": "Orodha Yangu",
+    "playedToEpisode": "Imechezwa hadi Kipindi cha {{episode}}",
+    "more": "Zaidi",
+    "download": "Pakua"
+  },
+  "search": {
+    "placeholder": "Tafuta chochote unachopenda",
+    "searchResults": "Matokeo ya Utafutaji",
+    "noResults": "Hakuna filamu zilizopatikana kwa \"{query}\"",
+    "viewAllResults": "Tazama matokeo yote {count}",
+    "popularSearches": "Utafutaji maarufu:",
+    "peopleAreSearching": "Watu wanatafuta",
+    "moviesAndTVSeries": "Filamu & Tamthilia",
+    "noMoviesFound": "Hakuna filamu zilizopatikana."
+  },
+  "home": {
+    "continueWatching": "Endelea Kutazama",
+    "newMovies": "Filamu Mpya",
+    "allMovies": "Filamu Zote",
+    "moreMovies": "Filamu Zaidi"
+  },
+  "movie": {
+    "watchNow": "Tazama Sasa",
+    "addToList": "Ongeza kwenye Orodha",
+    "removeFromList": "Ondoa kwenye Orodha",
+    "episodes": "Vipindi",
+    "description": "Maelezo",
+    "cast": "Wachezaji",
+    "genre": "Aina",
+    "duration": "Muda",
+    "rating": "Ukadiriaji",
+    "releaseDate": "Tarehe ya Kutolewa",
+    "director": "Mkurugenzi",
+    "producer": "Mzalishaji",
+    "favorites": "Vipendwa",
+    "completed": "Imekamilika"
+  },
+  "auth": {
+    "login": "Ingia",
+    "logout": "Toka",
+    "signup": "Jiunge",
+    "profile": "Wasifu",
+    "settings": "Mipangilio",
+    "notAuthenticated": "Hujaingia, tafadhali ingia",
+    "coins": "Sarafu",
+    "topUp": "Ongeza Salio",
+    "chooseYourExperience": "Chagua Uzoefu Wako",
+    "getAccessToPremiumContent": "Pata ufikiaji wa maudhui ya premium",
+    "continueWithGoogle": "Endelea na Google",
+    "termsOfService": "Masharti ya Huduma",
+    "privacyPolicy": "Sera ya Faragha",
+    "byContinyingYouAgree": "Kwa kuendelea, unakubaliana na",
+    "and": "na",
+    "pleaseLoginFirst": "Tafadhali ingia kuendelea"
+  },
+  "dashboard": {
+    "title": "Dashibodi",
+    "library": "Maktaba",
+    "wallet": "Pochi",
+    "history": "Historia",
+    "favorites": "Vipendwa",
+    "watchlist": "Orodha ya Kutazama",
+    "accountBalance": "Salio ya Akaunti",
+    "myList": "Orodha Yangu",
+    "transactionHistory": "Hisia ya Malipo",
+    "episodesUnlocked": "Vipindi zilizopatikana",
+    "price": "Bei",
+    "coins": "Sarafu",
+    "uniqueId": "ID ya Kipekee",
+    "paymentGateway": "Mwelekeo wa Malipo",
+    "date": "Tarehe",
+    "movieName": "Jina la Filamu",
+    "episodeNumber": "Nambari ya Vipindi",
+    "unlockTime": "Muda wa Kupata"
+  },
+  "footer": {
+    "about": "KUHUSU",
+    "support": "MSAADA",
+    "contactUs": "Wasiliana Nasi",
+    "privacyPolicy": "Sera ya Faragha",
+    "termsOfService": "Masharti ya Huduma",
+    "feedback": "Maoni",
+    "mediaRelations": "Mahusiano ya Vyombo vya Habari"
+  },
+  "payment": {
+    "enterPaymentDetails": "Weka Maelezo ya Malipo",
+    "price": "Bei",
+    "fullName": "Jina Kamili",
+    "addressLine1": "Anwani Mstari wa 1",
+    "addressLine2": "Anwani Mstari wa 2 (Hiari)",
+    "city": "Jiji",
+    "state": "Jimbo",
+    "postalCode": "Nambari ya Posta",
+    "payNow": "Lipa Sasa",
+    "processing": "Inashughulikiwa...",
+    "cancel": "Ghairi",
+    "paymentMethod": "Njia ya Malipo",
+    "bonus": "Bonasi"
+  },
+  "unlock": {
+    "payToContinueWatching": "Lipa ili kuendelea kutazama",
+    "unlockAtJust": "fungua kwa bei ya",
+    "topUpToGet100Bonus": "Ongeza salio upate bonasi ya 100%",
+    "balance": "Salio"
+  },
+  "video": {
+    "play": "Cheza",
+    "pause": "Sitisha",
+    "mute": "Nyamazisha",
+    "unmute": "Rudisha sauti",
+    "fullscreen": "Skrini Kamili",
+    "exitFullscreen": "Toka Skrini Kamili",
+    "volume": "Sauti",
+    "settings": "Mipangilio",
+    "speed": "Kasi",
+    "quality": "Ubora"
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Hitilafu",
+    "success": "Mafanikio",
+    "cancel": "Ghairi",
+    "save": "Hifadhi",
+    "delete": "Futa",
+    "edit": "Hariri",
+    "close": "Funga",
+    "back": "Nyuma",
+    "next": "Ifuatayo",
+    "previous": "Iliyopita",
+    "submit": "Wasilisha",
+    "confirm": "Thibitisha",
+    "yes": "Ndio",
+    "no": "Hapana",
+    "ok": "Sawa",
+    "retry": "Jaribu Tena",
+    "continue": "Endelea",
+    "all": "Wote",
+    "movies": "Filamu",
+    "noMoviesFound": "Hakuna filamu zilizopatikana.",
+    "home": "Nyumbani"
+  },
+  "language": {
+    "selectLanguage": "Chagua Lugha",
+    "language": "Lugha"
+  },
+  "errors": {
+    "somethingWentWrong": "Kuna tatizo lilitokea",
+    "tryAgain": "Tafadhali jaribu tena",
+    "networkError": "Hitilafu ya mtandao",
+    "unauthorized": "Upatikanaji usioruhusiwa",
+    "invalidCredentials": "Maelezo ya kuingia si sahihi",
+    "sessionExpired": "Kipindi kimeisha muda wake"
+  },
+  "notifications": {
+    "movieAddedToList": "Filamu imeongezwa kwenye orodha yako",
+    "movieRemovedFromList": "Filamu imeondolewa kwenye orodha yako",
+    "loginRequired": "Tafadhali ingia kuendelea",
+    "operationSuccessful": "Operesheni imekamilika kwa mafanikio",
+    "paymentSuccessful": "Malipo yamekamilika kwa mafanikio",
+    "paymentFailed": "Malipo yameshindwa",
+    "loginSuccessful": "Kuingia kumefaulu",
+    "logoutSuccessful": "Umetoka kwa mafanikio"
+  },
+  "login": {
+    "chooseYourExperience": "Chagua Uzoefu Wako",
+    "getAccessToPremiumContent": "Pata ufikiaji wa maudhui ya premium",
+    "continueWithGoogle": "Endelea na Google",
+    "byContinuingYouAgree": "Kwa kuendelea, unakubaliana na Masharti ya Huduma na Sera ya Faragha"
+  },
+  "movieDetails": {
+    "play": "Cheza",
+    "addToMyList": "Ongeza kwenye Orodha",
+    "removeFromMyList": "Ondoa kwenye Orodha",
+    "pleaseLoginToAddToList": "Tafadhali ingia kuendelea kuongeza kwenye orodha",
+    "remove": "Ondoa",
+    "add": "Ongeza"
+  },
+  "episodes": {
+    "home": "Nyumbani",
+    "episode": "Vipindi",
+    "fullMovie": "Filamu Kamili",
+    "share": "Kusharibu",
+    "plotof": "Plot ya",
+    "episodeListOf": "Orodha ya Vipindi ya",
+    "completed": "Imekamilika",
+    "allEpisodes": "Vipindi Zote",
+    "trailer": "Trailer"
+  },
+  "details": {
+    "home": "Nyumbani",
+    "share": "Kusharibu",
+    "goToWatching": "Kutazama",
+    "addToMyList": "Ongeza kwenye Orodha",
+    "plotof": "Plot ya",
+    "episodeList": "Orodha ya Vipindi",
+    "trailer": "Trailer",
+    "episode": "Vipindi",
+    "ep": "EP",
+    "youMightLike": "Unaweza kuwa na",
+    "removeFromMyList": "Ondoa kwenye Orodha"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "Vipindi Zote",
+    "episodes": "Vipindi",
+    "moviesAndTVSeries": "Filamu & Tamthilia"
+  },
+  "videoError": {
+    "errorOccurred": "Kuna tatizo lilitokea wakati wa kutazama video"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "Pindai kode QR untuk mengunduh aplikasi",
+    "downloadOnIOSOrAndroid": "Unduh di iOS atau Android"
+  }
+}

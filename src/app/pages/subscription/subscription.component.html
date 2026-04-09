@@ -1,0 +1,99 @@
+<section class="container-fluid w-100 subscription-main-section">
+
+<div class="subscription-container">
+
+  <div class="title-section ">
+    <!-- <h2>Flexible StoryBox Plans for Every Creator</h2> -->
+
+    <div class="plan-toggle ">
+      <button [class.active]="!isYearly" (click)="setMonthly()">
+        Monthly
+      </button>
+
+      <button [class.active]="isYearly" (click)="setYearly()">
+        Annual
+      </button>
+    </div>
+  </div>
+
+  <div class="plan-container">
+
+    <!-- Basic Plan -->
+    <div class="plan-card">
+
+      <div class="plan-icon">
+        <i class="fa-solid fa-play"></i>
+         <!-- <i class="bi bi-badge-hd-fill"></i> -->
+      </div>
+
+      <h4 class="plan-name">BASIC</h4>
+
+      <h2 class="price">
+        {{ isYearly ? '₹1999 /yr' : '₹199 /mo' }}
+      </h2>
+
+      <p class="subtitle">Perfect for StoryBox viewers</p>
+
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Ad-free reels</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Unlimited story watching</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> HD streaming</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> 24/7 support</p>
+
+      <button class="plan-btn">Get Started</button>
+
+    </div>
+
+
+    <!-- Pro Plan -->
+    <div class="plan-card highlight">
+
+      <div class="plan-icon highlight-icon">
+        <i class="fa-solid fa-star"></i>
+      </div>
+
+      <h4 class="plan-name">PRO</h4>
+
+      <h2 class="price highlight-price">
+        {{ isYearly ? '₹4999 /yr' : '₹499 /mo' }}
+      </h2>
+
+      <p class="subtitle">Best for StoryBox creators</p>
+
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Upload unlimited reels</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Advanced creator tools</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Analytics dashboard</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Monetization features</p>
+
+      <button class="plan-btn pro-btn">Go Pro</button>
+
+    </div>
+
+
+    <!-- Business Plan -->
+    <div class="plan-card">
+
+      <div class="plan-icon">
+        <i class="fa-solid fa-users"></i>
+      </div>
+
+      <h4 class="plan-name">BUSINESS</h4>
+
+      <h2 class="price">
+        {{ isYearly ? '₹9999 /yr' : '₹999 /mo' }}
+      </h2>
+
+      <p class="subtitle">Ideal for agencies & teams</p>
+
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Multiple creator accounts</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Team collaboration</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Priority support</p>
+      <p class="feature"><i class="fa-solid fa-circle-check"></i> Brand integrations</p>
+
+      <button class="plan-btn">Go Business</button>
+
+    </div>
+
+  </div>
+
+</div>
+</section>

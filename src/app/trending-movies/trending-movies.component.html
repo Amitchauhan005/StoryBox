@@ -1,0 +1,39 @@
+<div class="container-fluid bg-black text-white py-4">
+  <h4 class="trend-heading">Trending Now</h4>
+
+  <div id="movieCarousel" class="carousel slide">
+
+    <div class="carousel-inner">
+      <div class="carousel-item"
+           *ngFor="let chunk of movieChunks; let i = index"
+           [class.active]="i === 0">
+
+        <div class="movie-row">
+          <div class="card movie-card"
+               *ngFor="let movie of chunk; let j = index">
+            <img [src]="movie.img">
+            <div class="rank-number">{{ i * chunkSize + j + 1 }}</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Prev Button -->
+    <button class="carousel-control-prev custom-btn-prev"
+            type="button"
+            data-bs-target="#movieCarousel"
+            data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <!-- Next Button -->
+    <button class="carousel-control-next custom-btn-next"
+            type="button"
+            data-bs-target="#movieCarousel"
+            data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</div>

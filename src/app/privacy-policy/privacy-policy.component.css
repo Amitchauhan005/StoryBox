@@ -1,0 +1,192 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: #000;
+    }
+
+    body {
+      background: linear-gradient(145deg, #0a0c12 0%, #10141f 100%);
+      font-family: 'Inter', sans-serif;
+      color: #eef2ff;
+      scroll-behavior: smooth;
+    }
+
+    /* main container with soft glow effect */
+    .privacy-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem 1.5rem;
+    }
+
+    /* card-like content block */
+    .policy-card {
+      /* background: rgba(18, 22, 35, 0.75); */
+      background: #0a0c12;
+      backdrop-filter: blur(2px);
+      border-radius: 2rem;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(74, 144, 226, 0.15);
+      transition: all 0.2s ease;
+    }
+
+    @media (max-width: 768px) {
+      .privacy-container {
+        padding: 1.2rem 1rem 3rem 1rem;
+      }
+      .policy-card {
+        padding: 1.8rem 1.2rem;
+      }
+    }
+
+    /* headings with gradient & clean spacing */
+    .templateheading1 {
+      font-size: 3rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #FFFFFF 0%, #B9D0FF 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+      font-family: 'Inter', sans-serif;
+      border-left: 5px solid #3b82f6;
+      padding-left: 1.2rem;
+    }
+
+    .templateheading2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: 1.2rem;
+      color: #eef2ff;
+      letter-spacing: -0.01em;
+      position: relative;
+      display: inline-block;
+    }
+    .templateheading2::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: #3b82f6;
+      border-radius: 4px;
+    }
+
+    h3.templateheading2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 1.8rem;
+    }
+    h3.templateheading2::after {
+      width: 45px;
+      height: 2px;
+    }
+
+    /* paragraph styling: elegant, readable */
+    .templateParagraph {
+      font-size: 1rem;
+      line-height: 1.65;
+      color: #cfddf5;
+      margin-bottom: 1.2rem;
+      font-weight: 400;
+    }
+
+    /* inline bold and underline variations */
+    .bold {
+      font-weight: 700;
+      color: white;
+    }
+    .templateunderline {
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1.5px dotted #5f8bff;
+      color: #c7deff;
+    }
+
+    /* links & anchor styles */
+    .templateanchor {
+      color: #7aa9ff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s, border-bottom 0.2s;
+      border-bottom: 1px solid rgba(122, 169, 255, 0.3);
+    }
+    .templateanchor:hover {
+      color: #ffffff;
+      border-bottom-color: #ffffff;
+    }
+
+    /* list styling: modern, spaced */
+    ul, .templatelist-parent {
+      padding-left: 1.4rem;
+      margin-bottom: 1.5rem;
+    }
+    .templatelist {
+      margin-bottom: 0.55rem;
+      line-height: 1.55;
+      color: #cfddf5;
+    }
+    ul ul {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* small, subtle date & meta */
+    .last-updated-badge {
+      background: rgba(59, 130, 246, 0.2);
+      display: inline-block;
+      padding: 0.25rem 1rem;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      backdrop-filter: blur(4px);
+    }
+    .white {
+      color: #f0f3ff;
+      font-weight: 500;
+    }
+    sup {
+      font-size: 0.7rem;
+    }
+
+    /* custom card divider */
+    .policy-divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #2d3a5e, #3b82f6, #2d3a5e, transparent);
+      margin: 2rem 0;
+    }
+
+    /* extra spacing for sections */
+    section {
+      margin-bottom: 0.5rem;
+    }
+
+    /* badge for CCPA / GDPR context */
+    .badge-gdpr {
+      background: #1e2a47;
+      color: #bbd7fb;
+      font-size: 0.7rem;
+      font-weight: 500;
+      border-radius: 30px;
+      padding: 0.2rem 0.7rem;
+      margin-left: 0.75rem;
+      vertical-align: middle;
+    }
+
+    /* responsiveness for headings */
+    @media (max-width: 576px) {
+      .templateheading1 {
+        font-size: 2.2rem;
+        padding-left: 0.8rem;
+      }
+      .templateheading2 {
+        font-size: 1.5rem;
+      }
+      .policy-card {
+        padding: 1.5rem;
+      }
+    }

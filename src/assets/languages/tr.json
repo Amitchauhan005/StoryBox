@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "genre": "Tür",
+    "search": "Ara",
+    "history": "Geçmiş",
+    "myList": "Listem",
+    "playedToEpisode": "{{episode}}. bölüme kadar izlendi",
+    "more": "Daha Fazla",
+    "download": "İndir"
+  },
+  "search": {
+    "placeholder": "İstediğiniz şeyi arayın",
+    "searchResults": "Arama Sonuçları",
+    "noResults": "\"{query}\" için film bulunamadı",
+    "viewAllResults": "Tüm {count} sonucu görüntüle",
+    "popularSearches": "Popüler aramalar:",
+    "peopleAreSearching": "Kullanıcılar şunları arıyor",
+    "moviesAndTVSeries": "Filmler & TV Dizileri",
+    "noMoviesFound": "Film bulunamadı."
+  },
+  "home": {
+    "continueWatching": "İzlemeye Devam Et",
+    "newMovies": "Yeni Filmler",
+    "allMovies": "Tüm Filmler",
+    "moreMovies": "Daha Fazla Film"
+  },
+  "movie": {
+    "watchNow": "Şimdi İzle",
+    "addToList": "Listeye Ekle",
+    "removeFromList": "Listeden Kaldır",
+    "episodes": "Bölümler",
+    "description": "Açıklama",
+    "cast": "Oyuncular",
+    "genre": "Tür",
+    "duration": "Süre",
+    "rating": "Puan",
+    "releaseDate": "Yayın Tarihi",
+    "director": "Yönetmen",
+    "producer": "Yapımcı",
+    "favorites": "Favoriler",
+    "completed": "Tamamlandı"
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "signup": "Kayıt Ol",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "notAuthenticated": "Lütfen giriş yapınız",
+    "coins": "Jetonlar",
+    "topUp": "Yükle",
+    "chooseYourExperience": "Deneyiminizi Seçin",
+    "getAccessToPremiumContent": "Premium içeriğe erişim kazanın",
+    "continueWithGoogle": "Google ile devam et",
+    "termsOfService": "Hizmet Şartları",
+    "privacyPolicy": "Gizlilik Politikası",
+    "byContinyingYouAgree": "Devam ederek, şunları kabul etmiş olursunuz:",
+    "and": "ve",
+    "pleaseLoginFirst": "Lütfen giriş yapınız"
+  },
+  "dashboard": {
+    "title": "Kontrol Paneli",
+    "library": "Kütüphane",
+    "wallet": "Cüzdan",
+    "history": "Geçmiş",
+    "favorites": "Favoriler",
+    "watchlist": "İzleme Listesi",
+    "accountBalance": "Hesap Bakiyesi",
+    "myList": "Listem",
+    "transactionHistory": "İşlem Geçmişi",
+    "episodesUnlocked": "Bölümler Açıldı",
+    "price": "Fiyat",
+    "coins": "Jetonlar",
+    "uniqueId": "Benzersiz ID",
+    "paymentGateway": "Ödeme Ağ Geçidi",
+    "date": "Tarih",
+    "movieName": "Film Adı",
+    "episodeNumber": "Bölüm Numarası",
+    "unlockTime": "Açılma Zamanı"
+  },
+  "footer": {
+    "about": "HAKKINDA",
+    "support": "DESTEK",
+    "contactUs": "Bize Ulaşın",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları",
+    "feedback": "Geri Bildirim",
+    "mediaRelations": "Medya & Halkla İlişkiler"
+  },
+  "payment": {
+    "enterPaymentDetails": "Ödeme Bilgilerini Girin",
+    "price": "Fiyat",
+    "fullName": "Tam Ad",
+    "addressLine1": "Adres Satırı 1",
+    "addressLine2": "Adres Satırı 2 (İsteğe Bağlı)",
+    "city": "Şehir",
+    "state": "Eyalet/İl",
+    "postalCode": "Posta Kodu",
+    "payNow": "Şimdi Öde",
+    "processing": "İşleniyor...",
+    "cancel": "İptal",
+    "paymentMethod": "Ödeme Yöntemi",
+    "bonus": "Bonus"
+  },
+  "unlock": {
+    "payToContinueWatching": "İzlemeye devam etmek için ödeyin",
+    "unlockAtJust": "yalnızca şu fiyata aç",
+    "topUpToGet100Bonus": "%100 bonus kazanmak için yükleme yapın",
+    "balance": "Bakiye"
+  },
+  "video": {
+    "play": "Oynat",
+    "pause": "Duraklat",
+    "mute": "Sessize Al",
+    "unmute": "Sesi Aç",
+    "fullscreen": "Tam Ekran",
+    "exitFullscreen": "Tam Ekrandan Çık",
+    "volume": "Ses",
+    "settings": "Ayarlar",
+    "speed": "Hız",
+    "quality": "Kalite"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "submit": "Gönder",
+    "confirm": "Onayla",
+    "yes": "Evet",
+    "no": "Hayır",
+    "ok": "Tamam",
+    "retry": "Tekrar Dene",
+    "continue": "Devam Et",
+    "all": "Tümü",
+    "movies": "Filmler",
+    "noMoviesFound": "Film bulunamadı.",
+    "home": "Ana Sayfa"
+  },
+  "language": {
+    "selectLanguage": "Dil Seçin",
+    "language": "Dil"
+  },
+  "errors": {
+    "somethingWentWrong": "Bir şeyler yanlış gitti",
+    "tryAgain": "Lütfen tekrar deneyin",
+    "networkError": "Ağ hatası",
+    "unauthorized": "Yetkisiz erişim",
+    "invalidCredentials": "Geçersiz bilgiler",
+    "sessionExpired": "Oturum süresi doldu"
+  },
+  "notifications": {
+    "movieAddedToList": "Film listenize eklendi",
+    "movieRemovedFromList": "Film listenizden kaldırıldı",
+    "loginRequired": "Devam etmek için giriş yapın",
+    "operationSuccessful": "İşlem başarıyla tamamlandı",
+    "paymentSuccessful": "Ödeme başarıyla tamamlandı",
+    "paymentFailed": "Ödeme başarısız oldu",
+    "loginSuccessful": "Giriş başarılı",
+    "logoutSuccessful": "Çıkış başarılı"
+  },
+  "login": {
+    "chooseYourExperience": "Deneyiminizi Seçin",
+    "getAccessToPremiumContent": "Premium içeriğe erişim kazanın",
+    "continueWithGoogle": "Google ile devam et",
+    "byContinuingYouAgree": "Devam ederek, şunları kabul etmiş olursunuz:"
+  },
+  "movieDetails": {
+    "play": "Oynat",
+    "addToMyList": "Listeye Ekle",
+    "removeFromMyList": "Listeden Kaldır",
+    "pleaseLoginToAddToList": "Listeye eklemek için lütfen giriş yapın",
+    "remove": "Kaldır",
+    "add": "Ekle"
+  },
+  "episodes": {
+    "home": "Ana Sayfa",
+    "episode": "Bölüm",
+    "fullMovie": "Tam Film",
+    "share": "Paylaş",
+    "plotof": "Özet",
+    "episodeListOf": "Bölüm Listesi",
+    "completed": "Tamamlandı",
+    "allEpisodes": "Tüm Bölümler",
+    "trailer": "Tür"
+  },
+  "details": {
+    "home": "Ana Sayfa",
+    "share": "Paylaş",
+    "goToWatching": "İzlemeye Git",
+    "addToMyList": "Listeye Ekle",
+    "plotof": "Özet",
+    "episodeList": "Bölüm Listesi",
+    "trailer": "Tür",
+    "episode": "Bölüm",
+    "ep": "Bölüm",
+    "youMightLike": "Senin İçin Değerli",
+    "removeFromMyList": "Listeden Kaldır"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "Tüm Bölümler",
+    "episodes": "Bölümler",
+    "moviesAndTVSeries": "Filmler & TV Dizileri"
+  },
+  "videoError": {
+    "errorOccurred": "Video oynatılırken bir hata oluştu"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "uygulamasını indirmek için QR kodunu tarayın",
+    "downloadOnIOSOrAndroid": "iOS veya Android'de indirin"
+  }
+}

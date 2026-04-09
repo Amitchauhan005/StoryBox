@@ -1,0 +1,101 @@
+<!-- <div class="container-fluid login-wrapper d-flex justify-content-center align-items-center">
+
+  <div class="login-card text-center p-4">
+
+    <h2 class="fw-bold text-white">Login to Story Box</h2>
+    <p class="text-light small">
+      Login to continue enjoying uninterrupted video and personalised experience.
+    </p>
+
+    <div class="d-flex justify-content-center gap-3 my-3">
+
+      <div class="social-icon google">
+        <i class="bi bi-google"></i>
+      </div>
+
+      <div class="social-icon facebook">
+        <i class="bi bi-facebook"></i>
+      </div>
+
+      <div class="social-icon twitter">
+        <i class="bi bi-twitter"></i>
+      </div>
+
+      <div class="social-icon apple">
+        <i class="bi bi-apple"></i>
+      </div>
+
+    </div>
+
+    <div class="divider d-flex align-items-center my-4">
+      <hr class="flex-grow-1">
+      <span class="mx-2 text-light">or</span>
+      <hr class="flex-grow-1">
+    </div>
+
+    <input
+      type="text"
+      class="form-control bg-dark text-white mb-3"
+      placeholder="Enter email or mobile number"
+    >
+
+    <input
+      type="text"
+      class="form-control bg-dark text-white mb-3"
+      placeholder="Enter password"
+    >
+
+    <button class="btn btn-secondary w-100 mb-3">
+      Login
+    </button>
+
+    <p class="text-light small">
+      Don't  have  an  account?
+   <button class="btn btn-secondary w-100 mb-3" (click)="goToRegister()">
+   Go to Register
+   </button>    
+   </p>
+
+  </div>
+
+</div>
+ -->
+
+
+ <div class="container-fluid login-wrapper d-flex justify-content-center align-items-center">
+  <div class="login-card text-center p-4">
+
+    <h2 class="fw-bold text-white">Login to Story Box</h2>
+
+    <!-- Error message -->
+<form [formGroup]="form" (ngSubmit)="onLogin()">
+  <input formControlName="email" type="email"
+    class="form-control bg-dark text-white mb-3" placeholder="Email">
+
+  <input formControlName="password" type="password"
+    class="form-control bg-dark text-white mb-3" placeholder="Password">
+
+  <button class="btn btn-primary w-100 mb-3"
+    type="submit" [disabled]="form.invalid">
+    Login
+  </button>
+</form>
+
+<!-- Success -->
+<p style="color: green" *ngIf="successMsg">{{ successMsg }}</p>
+
+<!-- Error -->
+<p style="color: red" *ngIf="errorMsg">{{ errorMsg }}</p>
+
+    <!-- Google Login -->
+    <button class="btn btn-outline-light w-100 mb-3" (click)="onGoogleLogin()">
+      <i class="bi bi-google me-2"></i> Sign in with Google
+    </button>
+
+    <p class="text-light small">
+      Don't have an account?
+      <a routerLink="/auth/register" class="text-white fw-bold">Register here</a>
+    </p>
+
+  </div>
+</div>

@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "Главная",
+    "genre": "Жанр",
+    "search": "Поиск",
+    "history": "История",
+    "myList": "Мой список",
+    "playedToEpisode": "Просмотрено до серии {{episode}}",
+    "more": "Больше",
+    "download": "Скачать"
+  },
+  "search": {
+    "placeholder": "Ищите всё, что хотите",
+    "searchResults": "Результаты поиска",
+    "noResults": "Фильмы не найдены по запросу \"{query}\"",
+    "viewAllResults": "Посмотреть все {count} результатов",
+    "popularSearches": "Популярные запросы:",
+    "peopleAreSearching": "Люди ищут",
+    "moviesAndTVSeries": "Фильмы и Сериалы",
+    "noMoviesFound": "Фильмы не найдены."
+  },
+  "home": {
+    "continueWatching": "Продолжить просмотр",
+    "newMovies": "Новые фильмы",
+    "allMovies": "Все фильмы",
+    "moreMovies": "Больше фильмов"
+  },
+  "movie": {
+    "watchNow": "Смотреть сейчас",
+    "addToList": "Добавить в список",
+    "removeFromList": "Удалить из списка",
+    "episodes": "Эпизоды",
+    "description": "Описание",
+    "cast": "Актеры",
+    "genre": "Жанр",
+    "duration": "Продолжительность",
+    "rating": "Рейтинг",
+    "releaseDate": "Дата выхода",
+    "director": "Режиссёр",
+    "producer": "Продюсер",
+    "favorites": "Избранное",
+    "completed": "Завершено"
+  },
+  "auth": {
+    "login": "Войти",
+    "logout": "Выйти",
+    "signup": "Регистрация",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "notAuthenticated": "Вы не авторизованы, пожалуйста войдите",
+    "coins": "Монеты",
+    "topUp": "Пополнить",
+    "chooseYourExperience": "Выберите свой опыт",
+    "getAccessToPremiumContent": "Получите доступ к премиум-контенту",
+    "continueWithGoogle": "Продолжить через Google",
+    "termsOfService": "Условия обслуживания",
+    "privacyPolicy": "Политика конфиденциальности",
+    "byContinyingYouAgree": "Продолжая, вы соглашаетесь с нашими",
+    "and": "и",
+    "pleaseLoginFirst": "Пожалуйста, войдите"
+  },
+  "dashboard": {
+    "title": "Панель управления",
+    "library": "Библиотека",
+    "wallet": "Кошелек",
+    "history": "История",
+    "favorites": "Избранное",
+    "watchlist": "Список просмотра",
+    "accountBalance": "Баланс счета",
+    "myList": "Мой список",
+    "transactionHistory": "История транзакций",
+    "episodesUnlocked": "Разблокированные эпизоды",
+    "price": "Цена",
+    "coins": "Монеты",
+    "uniqueId": "Уникальный ID",
+    "paymentGateway": "Метод оплаты",
+    "date": "Дата",
+    "movieName": "Название фильма",
+    "episodeNumber": "Номер эпизода",
+    "unlockTime": "Время разблокировки"
+  },
+  "footer": {
+    "about": "О НАС",
+    "support": "ПОДДЕРЖКА",
+    "contactUs": "Свяжитесь с нами",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsOfService": "Условия обслуживания",
+    "feedback": "Обратная связь",
+    "mediaRelations": "Связи с общественностью"
+  },
+  "payment": {
+    "enterPaymentDetails": "Введите данные для оплаты",
+    "price": "Цена",
+    "fullName": "Полное имя",
+    "addressLine1": "Адрес, строка 1",
+    "addressLine2": "Адрес, строка 2 (необязательно)",
+    "city": "Город",
+    "state": "Область",
+    "postalCode": "Почтовый индекс",
+    "payNow": "Оплатить",
+    "processing": "Обработка...",
+    "cancel": "Отмена",
+    "paymentMethod": "Способ оплаты",
+    "bonus": "Бонус"
+  },
+  "unlock": {
+    "payToContinueWatching": "Оплатите, чтобы продолжить просмотр",
+    "unlockAtJust": "разблокируйте всего за",
+    "topUpToGet100Bonus": "Пополните счет и получите 100% бонус",
+    "balance": "Баланс"
+  },
+  "video": {
+    "play": "Воспроизвести",
+    "pause": "Пауза",
+    "mute": "Без звука",
+    "unmute": "Со звуком",
+    "fullscreen": "На весь экран",
+    "exitFullscreen": "Выйти из полноэкранного режима",
+    "volume": "Громкость",
+    "settings": "Настройки",
+    "speed": "Скорость",
+    "quality": "Качество"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успешно",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "close": "Закрыть",
+    "back": "Назад",
+    "next": "Далее",
+    "previous": "Предыдущий",
+    "submit": "Отправить",
+    "confirm": "Подтвердить",
+    "yes": "Да",
+    "no": "Нет",
+    "ok": "ОК",
+    "retry": "Повторить",
+    "continue": "Продолжить",
+    "all": "Все",
+    "movies": "Фильмы",
+    "noMoviesFound": "Фильмы не найдены.",
+    "home": "Главная"
+  },
+  "language": {
+    "selectLanguage": "Выберите язык",
+    "language": "Язык"
+  },
+  "errors": {
+    "somethingWentWrong": "Что-то пошло не так",
+    "tryAgain": "Пожалуйста, попробуйте снова",
+    "networkError": "Ошибка сети",
+    "unauthorized": "Несанкционированный доступ",
+    "invalidCredentials": "Неверные учетные данные",
+    "sessionExpired": "Сессия истекла"
+  },
+  "notifications": {
+    "movieAddedToList": "Фильм добавлен в ваш список",
+    "movieRemovedFromList": "Фильм удален из вашего списка",
+    "loginRequired": "Пожалуйста, войдите, чтобы продолжить",
+    "operationSuccessful": "Операция успешно завершена",
+    "paymentSuccessful": "Оплата прошла успешно",
+    "paymentFailed": "Оплата не удалась",
+    "loginSuccessful": "Вход выполнен успешно",
+    "logoutSuccessful": "Выход выполнен успешно"
+  },
+  "login": {
+    "chooseYourExperience": "Выберите свой опыт",
+    "getAccessToPremiumContent": "Получите доступ к премиум-контенту",
+    "continueWithGoogle": "Продолжить через Google",
+    "byContinuingYouAgree": "Продолжая, вы соглашаетесь с нашими Условиями обслуживания и Политикой конфиденциальности"
+  },
+  "movieDetails": {
+    "play": "Воспроизвести",
+    "addToMyList": "Добавить в список",
+    "removeFromMyList": "Удалить из списка",
+    "pleaseLoginToAddToList": "Пожалуйста, войдите, чтобы добавить в список",
+    "remove": "Удалить",
+    "add": "Добавить"
+  },
+  "episodes": {
+    "home": "Главная",
+    "episode": "Эпизод",
+    "fullMovie": "Полный фильм",
+    "share": "Поделиться",
+    "plotof": "Сюжет",
+    "episodeListOf": "Список эпизодов",
+    "completed": "Завершено",
+    "allEpisodes": "Все эпизоды",
+    "trailer": "Трейлер"
+  },
+  "details": {
+    "home": "Главная",
+    "share": "Поделиться",
+    "goToWatching": "Перейти к просмотру",
+    "addToMyList": "Добавить в список",
+    "plotof": "Сюжет",
+    "episodeList": "Список эпизодов",
+    "trailer": "Трейлер",
+    "episode": "Эпизод",
+    "ep": "EP",
+    "youMightLike": "Вы можете понравиться",
+    "removeFromMyList": "Удалить из списка"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "Все эпизоды",
+    "episodes": "Эпизоды",
+    "moviesAndTVSeries": "Фильмы и Сериалы"
+  },
+  "videoError": {
+    "errorOccurred": "Произошла ошибка при воспроизведении видео"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "Сканируйте QR-код, чтобы загрузить приложение",
+    "downloadOnIOSOrAndroid": "Загрузить на iOS или Android"
+  }
+}

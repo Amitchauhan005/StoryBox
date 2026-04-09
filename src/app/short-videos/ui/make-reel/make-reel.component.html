@@ -1,0 +1,251 @@
+<!-- Bootstrap 5 CDN — add to index.html if not already present -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"> -->
+
+<div class="reel-app">
+
+  <!-- ══ HEADER ══════════════════════════════════════════════════════ -->
+  <header class="reel-header d-flex align-items-center justify-content-between px-4 py-3">
+    <div class="d-flex align-items-center gap-3">
+      <div class="brand-dot"></div>
+      <h1 class="brand-title mb-0">ReelMaker</h1>
+      <span class="badge-pill">BETA</span>
+    </div>
+    <div class="d-flex align-items-center gap-2">
+      <span class="status-chip" [ngClass]="'status-' + statusType">
+        <span class="status-dot" [ngClass]="'dot-' + statusType"></span>
+        {{ statusMsg }}
+      </span>
+    </div>
+  </header>
+
+  <!-- ══ MAIN LAYOUT ════════════════════════════════════════════════ -->
+  <div class="reel-body container-fluid px-3 px-md-4 py-3">
+    <div class="row g-3">
+
+      <!-- ── LEFT: Camera + Controls ──────────────────────────────── -->
+      <div class="col-12 col-lg-8">
+
+        <!-- Camera viewport -->
+        <div class="camera-card">
+          <!-- Hidden raw video (used as canvas source) -->
+          <video #cameraVideo class="d-none" autoplay muted playsinline></video>
+
+          <!-- Filtered canvas preview -->
+          <div class="canvas-wrap" [class.has-camera]="cameraStarted">
+            <canvas #filterCanvas class="filter-canvas" [class.visible]="cameraStarted"></canvas>
+
+            <!-- Placeholder -->
+            <div class="cam-placeholder" [class.hidden]="cameraStarted">
+              <div class="placeholder-inner">
+                <i class="bi bi-camera-video placeholder-icon"></i>
+                <p class="placeholder-label">Camera not started</p>
+                <p class="placeholder-sub">Serve via localhost or HTTPS</p>
+              </div>
+            </div>
+
+            <!-- REC badge -->
+            <div class="rec-badge" [class.visible]="isRecording">
+              <span class="rec-dot"></span> REC
+              <span class="rec-timer">{{ formatTime(recordingTime) }}</span>
+            </div>
+
+            <!-- Active filter label -->
+            <div class="filter-label-overlay" *ngIf="cameraStarted && activeFilterName !== 'none'">
+              <!-- {{ filters | filterByName:activeFilterName }}{{ activeFilterName }} -->
+            </div>
+          </div>
+
+          <!-- Error alert -->
+          <div *ngIf="errorMsg" class="error-alert d-flex align-items-center gap-2 mt-2">
+            <i class="bi bi-exclamation-triangle-fill"></i>
+            <span>{{ errorMsg }}</span>
+          </div>
+        </div>
+
+        <!-- ── FILTER STRIP ─────────────────────────────────────────── -->
+        <div class="filter-strip mt-3">
+          <div class="filter-strip-label">
+            <i class="bi bi-magic"></i> Filters
+          </div>
+          <div class="filter-scroll">
+            <button
+              *ngFor="let f of filters"
+              class="filter-btn"
+              [class.active]="activeFilterName === f.name"
+              (click)="setFilter(f.name)"
+              [disabled]="!cameraStarted"
+              [title]="f.label">
+              <span class="filter-icon">{{ f.icon }}</span>
+              <span class="filter-label">{{ f.label }}</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- ── TEXT OVERLAY PANEL ───────────────────────────────────── -->
+        <div class="text-panel mt-2" [class.open]="showTextPanel">
+          <div class="text-panel-header" (click)="toggleTextPanel()">
+            <span><i class="bi bi-fonts"></i> Text Overlay</span>
+            <i class="bi" [class.bi-chevron-down]="!showTextPanel" [class.bi-chevron-up]="showTextPanel"></i>
+          </div>
+          <div class="text-panel-body" *ngIf="showTextPanel">
+            <div class="input-group input-group-sm mt-2">
+              <span class="input-group-text bg-dark border-secondary text-light">
+                <i class="bi bi-type"></i>
+              </span>
+              <input
+                type="text"
+                class="form-control form-control-sm dark-input"
+                placeholder="Type your caption…"
+                [(ngModel)]="overlayText"
+                maxlength="60" />
+              <button class="btn btn-sm btn-outline-secondary" (click)="overlayText = ''">
+                <i class="bi bi-x"></i>
+              </button>
+            </div>
+            <small class="text-muted">{{ overlayText.length }}/60</small>
+          </div>
+        </div>
+
+        <!-- ── ACTION BUTTONS ───────────────────────────────────────── -->
+        <div class="action-row mt-3 d-flex gap-2 flex-wrap">
+
+          <!-- Start Camera -->
+          <button
+            class="btn-reel btn-start"
+            (click)="startCamera()"
+            [disabled]="cameraStarted">
+            <i class="bi bi-camera-video-fill"></i>
+            {{ cameraStarted ? 'Camera On' : 'Start Camera' }}
+          </button>
+
+          <!-- Record / Stop -->
+          <ng-container *ngIf="!isRecording; else stopBtn">
+            <button
+              class="btn-reel btn-record"
+              (click)="startRecording()"
+              [disabled]="!cameraStarted">
+              <i class="bi bi-record-circle"></i>
+              Record Clip
+            </button>
+          </ng-container>
+          <ng-template #stopBtn>
+            <button class="btn-reel btn-stop" (click)="stopRecording()">
+              <i class="bi bi-stop-fill"></i>
+              Stop &nbsp;{{ formatTime(recordingTime) }}
+            </button>
+          </ng-template>
+
+          <!-- Text toggle -->
+          <button
+            class="btn-reel btn-text"
+            (click)="toggleTextPanel()"
+            [disabled]="!cameraStarted">
+            <i class="bi bi-fonts"></i>
+            Caption
+          </button>
+
+          <!-- Export Reel -->
+          <button
+            class="btn-reel btn-export ms-auto"
+            (click)="exportReel()"
+            [disabled]="clips.length === 0">
+            <i class="bi bi-download"></i>
+            Export Reel
+            <span *ngIf="clips.length" class="badge ms-1">{{ clips.length }}</span>
+          </button>
+
+        </div>
+      </div>
+
+      <!-- ── RIGHT: Clips Timeline + Preview ─────────────────────── -->
+      <div class="col-12 col-lg-4">
+
+        <!-- Preview Player -->
+        <div class="preview-card mb-3">
+          <div class="preview-header">
+            <i class="bi bi-play-circle"></i> Preview
+          </div>
+          <div class="preview-body">
+            <video
+              #previewVideo
+              class="preview-video"
+              controls
+              playsinline
+              [class.has-clip]="selectedClipIdx >= 0">
+            </video>
+            <div class="preview-empty" *ngIf="selectedClipIdx < 0">
+              <i class="bi bi-collection-play"></i>
+              <p>Tap a clip to preview</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clips Timeline -->
+        <div class="clips-panel">
+          <div class="clips-header d-flex align-items-center justify-content-between">
+            <span><i class="bi bi-collection"></i> Clips ({{ clips.length }})</span>
+            <span class="total-duration" *ngIf="clips.length">
+              Total: {{ formatTime(totalDuration) }}
+            </span>
+          </div>
+
+          <!-- Empty state -->
+          <div class="clips-empty" *ngIf="clips.length === 0">
+            <i class="bi bi-camera-video text-secondary fs-2"></i>
+            <p class="text-secondary small mt-2 mb-0">No clips yet — start recording!</p>
+          </div>
+
+          <!-- Clip list -->
+          <div class="clips-list" *ngIf="clips.length > 0">
+            <div
+              *ngFor="let clip of clips; let i = index"
+              class="clip-item"
+              [class.selected]="selectedClipIdx === i"
+              (click)="selectClip(i)">
+
+              <!-- Thumbnail -->
+              <div class="clip-thumb-wrap">
+                <img [src]="clip.thumbnail" class="clip-thumb" [alt]="'Clip ' + clip.id" />
+                <span class="clip-duration">{{ formatTime(clip.duration) }}</span>
+              </div>
+
+              <!-- Meta -->
+              <div class="clip-meta">
+                <div class="clip-title">Clip {{ clip.id }}</div>
+                <div class="clip-filter">
+                  <i class="bi bi-magic"></i> {{ clip.filterName }}
+                  <span *ngIf="clip.text" class="ms-1">
+                    · <i class="bi bi-fonts"></i> "{{ clip.text | slice:0:12 }}…"
+                  </span>
+                </div>
+              </div>
+
+              <!-- Actions -->
+              <div class="clip-actions" (click)="$event.stopPropagation()">
+                <button class="clip-btn" title="Download" (click)="downloadClip(i, $event)">
+                  <i class="bi bi-download"></i>
+                </button>
+                <button class="clip-btn clip-btn-danger" title="Delete" (click)="deleteClip(i, $event)">
+                  <i class="bi bi-trash3"></i>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Export strip -->
+          <div class="export-strip mt-3" *ngIf="clips.length >= 2">
+            <div class="export-strip-inner" (click)="exportReel()">
+              <i class="bi bi-film"></i>
+              Merge {{ clips.length }} clips &amp; Export Reel
+              <i class="bi bi-arrow-right ms-auto"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>

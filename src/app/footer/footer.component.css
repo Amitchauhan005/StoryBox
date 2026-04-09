@@ -1,0 +1,36 @@
+body{
+margin:0;
+padding:0;
+}
+
+footer{
+margin-bottom:0;
+}
+
+.footer{
+  background: black;
+}
+
+.footer-title{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer ul li{
+  margin-bottom: 8px;
+}
+
+.footer ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer ul li a:hover{
+  color: #0d6efd;
+}
+
+.copyright{
+  font-size: 14px;
+  color: #aaa;
+}

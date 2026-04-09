@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "genre": "ジャンル",
+    "search": "検索",
+    "history": "履歴",
+    "myList": "マイリスト",
+    "playedToEpisode": "エピソード{{episode}}まで視聴済み",
+    "more": "もっと見る",
+    "download": "ダウンロード"
+  },
+  "search": {
+    "placeholder": "お好きなものを検索",
+    "searchResults": "検索結果",
+    "noResults": "\"{query}\" に該当する映画は見つかりませんでした",
+    "viewAllResults": "すべての{count}件の結果を見る",
+    "popularSearches": "人気の検索:",
+    "peopleAreSearching": "みんなが検索中",
+    "moviesAndTVSeries": "映画 & テレビシリーズ",
+    "noMoviesFound": "映画が見つかりません。"
+  },
+  "home": {
+    "continueWatching": "続きを見る",
+    "newMovies": "新着映画",
+    "allMovies": "すべての映画",
+    "moreMovies": "さらに映画を見る"
+  },
+  "movie": {
+    "watchNow": "今すぐ見る",
+    "addToList": "リストに追加",
+    "removeFromList": "リストから削除",
+    "episodes": "エピソード",
+    "description": "説明",
+    "cast": "キャスト",
+    "genre": "ジャンル",
+    "duration": "再生時間",
+    "rating": "評価",
+    "releaseDate": "公開日",
+    "director": "監督",
+    "producer": "プロデューサー",
+    "favorites": "お気に入り",
+    "completed": "完了済み"
+  },
+  "auth": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "signup": "新規登録",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "notAuthenticated": "ログインしてください",
+    "coins": "コイン",
+    "topUp": "チャージ",
+    "chooseYourExperience": "体験を選択してください",
+    "getAccessToPremiumContent": "プレミアムコンテンツにアクセス",
+    "continueWithGoogle": "Googleで続行",
+    "termsOfService": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "byContinyingYouAgree": "続行することで、以下に同意したことになります：",
+    "and": "および",
+    "pleaseLoginFirst": "ログインしてください"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "library": "ライブラリ",
+    "wallet": "ウォレット",
+    "history": "履歴",
+    "favorites": "お気に入り",
+    "watchlist": "ウォッチリスト",
+    "accountBalance": "アカウント残高",
+    "myList": "マイリスト",
+    "transactionHistory": "取引履歴",
+    "episodesUnlocked": "エピソード解除",
+    "price": "価格",
+    "coins": "コイン",
+    "uniqueId": "ユニークID",
+    "paymentGateway": "支払いゲートウェイ",
+    "date": "日付",
+    "movieName": "映画名",
+    "episodeNumber": "エピソード番号",
+    "unlockTime": "解除時間"
+  },
+  "footer": {
+    "about": "会社情報",
+    "support": "サポート",
+    "contactUs": "お問い合わせ",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "feedback": "フィードバック",
+    "mediaRelations": "メディア・広報"
+  },
+  "payment": {
+    "enterPaymentDetails": "支払い情報を入力",
+    "price": "価格",
+    "fullName": "氏名",
+    "addressLine1": "住所1行目",
+    "addressLine2": "住所2行目（任意）",
+    "city": "市区町村",
+    "state": "都道府県",
+    "postalCode": "郵便番号",
+    "payNow": "今すぐ支払う",
+    "processing": "処理中...",
+    "cancel": "キャンセル",
+    "paymentMethod": "支払い方法",
+    "bonus": "ボーナス"
+  },
+  "unlock": {
+    "payToContinueWatching": "視聴を続けるには支払いが必要です",
+    "unlockAtJust": "わずかでアンロック",
+    "topUpToGet100Bonus": "100％ボーナスを得るためにチャージする",
+    "balance": "残高"
+  },
+  "video": {
+    "play": "再生",
+    "pause": "一時停止",
+    "mute": "ミュート",
+    "unmute": "ミュート解除",
+    "fullscreen": "全画面表示",
+    "exitFullscreen": "全画面解除",
+    "volume": "音量",
+    "settings": "設定",
+    "speed": "再生速度",
+    "quality": "画質"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "submit": "送信",
+    "confirm": "確認",
+    "yes": "はい",
+    "no": "いいえ",
+    "ok": "OK",
+    "retry": "再試行",
+    "continue": "続行",
+    "all": "すべて",
+    "movies": "映画",
+    "noMoviesFound": "映画が見つかりません。",
+    "home": "ホーム"
+  },
+  "language": {
+    "selectLanguage": "言語を選択",
+    "language": "言語"
+  },
+  "errors": {
+    "somethingWentWrong": "問題が発生しました",
+    "tryAgain": "もう一度お試しください",
+    "networkError": "ネットワークエラー",
+    "unauthorized": "認証されていません",
+    "invalidCredentials": "無効な資格情報",
+    "sessionExpired": "セッションの有効期限が切れました"
+  },
+  "notifications": {
+    "movieAddedToList": "映画がリストに追加されました",
+    "movieRemovedFromList": "映画がリストから削除されました",
+    "loginRequired": "続行するにはログインが必要です",
+    "operationSuccessful": "操作が成功しました",
+    "paymentSuccessful": "支払いが完了しました",
+    "paymentFailed": "支払いに失敗しました",
+    "loginSuccessful": "ログイン成功",
+    "logoutSuccessful": "ログアウトしました"
+  },
+  "login": {
+    "chooseYourExperience": "体験を選択してください",
+    "getAccessToPremiumContent": "プレミアムコンテンツにアクセス",
+    "continueWithGoogle": "Googleで続行",
+    "byContinuingYouAgree": "続行することで、以下に同意したことになります："
+  },
+  "movieDetails": {
+    "play": "再生",
+    "addToMyList": "リストに追加",
+    "removeFromMyList": "リストから削除",
+    "pleaseLoginToAddToList": "リストに追加するにはログインが必要です",
+    "remove": "削除",
+    "add": "追加"
+  },
+  "episodes": {
+    "home": "ホーム",
+    "episode": "エピソード",
+    "fullMovie": "フルムービー",
+    "share": "共有",
+    "plotof": "プロット",
+    "episodeListOf": "エピソードリスト",
+    "completed": "完了",
+    "allEpisodes": "すべてのエピソード",
+    "trailer": "トレーラー"
+  },
+  "details": {
+    "home": "ホーム",
+    "share": "共有",
+    "goToWatching": "視聴する",
+    "addToMyList": "リストに追加",
+    "plotof": "プロット",
+    "episodeList": "エピソードリスト",
+    "trailer": "トレーラー",
+    "episode": "エピソード",
+    "ep": "EP",
+    "youMightLike": "あなたはこれも見たいかもしれません",
+    "removeFromMyList": "リストから削除"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "すべてのエピソード",
+    "episodes": "エピソード",
+    "moviesAndTVSeries": "映画 & テレビシリーズ"
+  },
+  "videoError": {
+    "errorOccurred": "ビデオの再生中にエラーが発生しました"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "QRコードをスキャンしてアプリをダウンロード",
+    "downloadOnIOSOrAndroid": "iOSまたはAndroidでダウンロード"
+  }
+}

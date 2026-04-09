@@ -1,0 +1,51 @@
+<div class="reel" (click)="togglePlayPause()">
+
+  <video #videoPlayer [src]="reel.videoUrl" loop muted playsinline>
+  </video>
+
+  <!-- Play Icon -->
+  <div *ngIf="!isPlaying" class="play-icon">▶</div>
+
+  <!-- Right Side Icons -->
+  <div class="right">
+    <button (click)="$event.stopPropagation()">
+      <!-- <i class="fa-regular fa-heart"></i> -->
+       <i class="bi bi-heart"></i>
+      <span>{{ reel.likes }}</span>
+    </button>
+
+    <button (click)="$event.stopPropagation()">
+      <!-- <i class="fa-regular fa-comment"></i> -->
+<i class="bi bi-chat" style="transform: scaleX(-1);"></i>
+       </button>
+
+    <button (click)="$event.stopPropagation()">
+    <!-- <i class="fa-thin fa-share"></i>     -->
+     <i class="bi bi-share"></i>
+  </button>
+
+    <button (click)="openReport(); $event.stopPropagation()">
+   <i class="bi bi-three-dots-vertical"></i>
+    </button>
+  </div>
+
+  <!-- Bottom Description -->
+  <div class="bottom">
+    <h4>{{ reel.user }}</h4>
+    <p (click)="$event.stopPropagation()">
+      <span *ngIf="!isExpanded">
+        {{ reel.description | slice:0:80 }}...
+        <span class="read-more" (click)="isExpanded = true">Read More</span>
+      </span>
+      <span *ngIf="isExpanded">
+        {{ reel.description }}
+        <span class="read-more" (click)="isExpanded = false">Show Less</span>
+      </span>
+    </p>
+  </div>
+
+  <!-- Report Modal -->
+  <app-report-modal *ngIf="isReportOpen" (close)="isReportOpen = false">
+  </app-report-modal>
+
+</div>

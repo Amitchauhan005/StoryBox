@@ -1,0 +1,60 @@
+
+<div class="container-fluid bg-black text-white py-4">
+
+  <h4 class="movie-header ms-4 mb-1">All Movies</h4>
+
+  <div class="movie-wrapper">
+
+    <button class="prev-btn" (click)="scrollPrev()">❮</button>
+
+    <div class="movie-row" #movieRow>
+
+      <div class="movie-card" *ngFor="let movie of movies">
+
+        <img
+        [src]="'https://image.tmdb.org/t/p/w500'+movie.poster_path"
+        class="movie-img">
+
+        <div class="preview-card">
+
+          <img
+          [src]="'https://image.tmdb.org/t/p/w500'+movie.backdrop_path"
+          class="preview-img">
+
+          <div class="preview-content">
+
+            <!-- UPDATED BUTTON -->
+            <button 
+            class="btn btn-light btn-sm"
+            (click)="openMovie(movie)">
+
+            ▶ Watch Now
+            </button>
+
+            <button class="btn btn-secondary btn-sm ms-2">
+              +
+            </button>
+
+            <h6 class="mt-2">{{movie.title}}</h6>
+
+            <p class="small">
+              ⭐ {{movie.vote_average}} • {{movie.release_date}}
+            </p>
+
+            <p class="small text-secondary">
+              {{movie.overview | slice:0:100}}...
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <button class="next-btn" (click)="scrollNext()">❯</button>
+
+  </div>
+
+</div>

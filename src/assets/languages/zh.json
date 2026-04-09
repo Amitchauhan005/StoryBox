@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "首页",
+    "genre": "类型",
+    "search": "搜索",
+    "history": "历史",
+    "myList": "我的列表",
+    "playedToEpisode": "已观看至第 {{episode}} 集",
+    "more": "更多",
+    "download": "下载"
+  },
+  "search": {
+    "placeholder": "搜索你喜欢的内容",
+    "searchResults": "搜索结果",
+    "noResults": "未找到与 \"{query}\" 相关的电影",
+    "viewAllResults": "查看全部 {count} 个结果",
+    "popularSearches": "热门搜索：",
+    "peopleAreSearching": "大家都在搜",
+    "moviesAndTVSeries": "电影和电视剧",
+    "noMoviesFound": "未找到电影。"
+  },
+  "home": {
+    "continueWatching": "继续观看",
+    "newMovies": "新上映电影",
+    "allMovies": "所有电影",
+    "moreMovies": "更多电影"
+  },
+  "movie": {
+    "watchNow": "立即观看",
+    "addToList": "添加到列表",
+    "removeFromList": "从列表移除",
+    "episodes": "剧集",
+    "description": "简介",
+    "cast": "演员",
+    "genre": "类型",
+    "duration": "时长",
+    "rating": "评分",
+    "releaseDate": "上映日期",
+    "director": "导演",
+    "producer": "制片人",
+    "favorites": "收藏夹",
+    "completed": "已完成"
+  },
+  "auth": {
+    "login": "登录",
+    "logout": "登出",
+    "signup": "注册",
+    "profile": "个人资料",
+    "settings": "设置",
+    "notAuthenticated": "您尚未登录，请先登录",
+    "coins": "金币",
+    "topUp": "充值",
+    "chooseYourExperience": "选择你的体验",
+    "getAccessToPremiumContent": "获取高级内容访问权限",
+    "continueWithGoogle": "使用 Google 登录",
+    "termsOfService": "服务条款",
+    "privacyPolicy": "隐私政策",
+    "byContinyingYouAgree": "继续即表示您同意我们的",
+    "and": "和",
+    "pleaseLoginFirst": "请先登录"
+  },
+  "dashboard": {
+    "title": "仪表盘",
+    "library": "媒体库",
+    "wallet": "钱包",
+    "history": "历史记录",
+    "favorites": "收藏夹",
+    "watchlist": "观看列表",
+    "accountBalance": "账户余额",
+    "myList": "我的列表",
+    "transactionHistory": "交易历史",
+    "episodesUnlocked": "已解锁的剧集",
+    "price": "价格",
+    "coins": "金币",
+    "uniqueId": "唯一ID",
+    "paymentGateway": "支付网关",
+    "date": "日期",
+    "movieName": "电影名称",
+    "episodeNumber": "集数",
+    "unlockTime": "解锁时间"
+  },
+  "footer": {
+    "about": "关于我们",
+    "support": "支持",
+    "contactUs": "联系我们",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "feedback": "反馈",
+    "mediaRelations": "媒体与公共关系"
+  },
+  "payment": {
+    "enterPaymentDetails": "输入付款信息",
+    "price": "价格",
+    "fullName": "全名",
+    "addressLine1": "地址第一行",
+    "addressLine2": "地址第二行（可选）",
+    "city": "城市",
+    "state": "省/州",
+    "postalCode": "邮政编码",
+    "payNow": "立即支付",
+    "processing": "处理中...",
+    "cancel": "取消",
+    "paymentMethod": "支付方式",
+    "bonus": "奖励"
+  },
+  "unlock": {
+    "payToContinueWatching": "支付后继续观看",
+    "unlockAtJust": "仅需支付即可解锁",
+    "topUpToGet100Bonus": "充值可获得 100% 奖励",
+    "balance": "余额"
+  },
+  "video": {
+    "play": "播放",
+    "pause": "暂停",
+    "mute": "静音",
+    "unmute": "取消静音",
+    "fullscreen": "全屏",
+    "exitFullscreen": "退出全屏",
+    "volume": "音量",
+    "settings": "设置",
+    "speed": "速度",
+    "quality": "画质"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "submit": "提交",
+    "confirm": "确认",
+    "yes": "是",
+    "no": "否",
+    "ok": "确定",
+    "retry": "重试",
+    "continue": "继续",
+    "all": "全部",
+    "movies": "电影",
+    "noMoviesFound": "未找到电影。",
+    "home": "首页"
+  },
+  "language": {
+    "selectLanguage": "选择语言",
+    "language": "语言"
+  },
+  "errors": {
+    "somethingWentWrong": "出了点问题",
+    "tryAgain": "请再试一次",
+    "networkError": "网络错误",
+    "unauthorized": "未授权访问",
+    "invalidCredentials": "无效的凭证",
+    "sessionExpired": "会话已过期"
+  },
+  "notifications": {
+    "movieAddedToList": "电影已添加到你的列表",
+    "movieRemovedFromList": "电影已从你的列表移除",
+    "loginRequired": "请先登录以继续操作",
+    "operationSuccessful": "操作成功完成",
+    "paymentSuccessful": "支付成功",
+    "paymentFailed": "支付失败",
+    "loginSuccessful": "登录成功",
+    "logoutSuccessful": "退出成功"
+  },
+  "login": {
+    "chooseYourExperience": "选择你的体验",
+    "getAccessToPremiumContent": "获取高级内容访问权限",
+    "continueWithGoogle": "使用 Google 登录",
+    "byContinuingYouAgree": "继续即表示您同意我们的服务条款和隐私政策"
+  },
+  "movieDetails": {
+    "play": "播放",
+    "addToMyList": "添加到我的列表",
+    "removeFromMyList": "从我的列表移除",
+    "pleaseLoginToAddToList": "请先登录以添加到列表",
+    "remove": "移除",
+    "add": "添加"
+  },
+  "episodes": {
+    "home": "首页",
+    "episode": "集",
+    "fullMovie": "完整电影",
+    "share": "分享",
+    "plotof": "剧情",
+    "episodeListOf": "集列表",
+    "completed": "已完成",
+    "allEpisodes": "全部集",
+    "trailer": "预告片"
+  },
+  "details": {
+    "home": "首页",
+    "share": "分享",
+    "goToWatching": "观看",
+    "addToMyList": "添加到我的列表",
+    "plotof": "剧情",
+    "episodeList": "集列表",
+    "episode": "集",
+    "trailer": "预告片",
+    "ep": "集",
+    "youMightLike": "你可能喜欢",
+    "removeFromMyList": "从我的列表移除"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "全部集",
+    "episodes": "集",
+    "moviesAndTVSeries": "电影和电视剧"
+  },
+  "videoError": {
+    "errorOccurred": "播放视频时发生错误"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "扫描 QR 码下载 应用",
+    "downloadOnIOSOrAndroid": "在 iOS 或 Android 上下载"
+  }
+}

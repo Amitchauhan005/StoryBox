@@ -1,0 +1,220 @@
+{
+  "navigation": {
+    "home": "Beranda",
+    "genre": "Genre",
+    "search": "Cari",
+    "history": "Riwayat",
+    "myList": "Daftar Saya",
+    "playedToEpisode": "Diputar hingga Episode {{episode}}",
+    "more": "Lainnya",
+    "download": "Unduh"
+  },
+  "search": {
+    "placeholder": "Cari apa pun yang Anda suka",
+    "searchResults": "Hasil Pencarian",
+    "noResults": "Tidak ada film ditemukan untuk \"{query}\"",
+    "viewAllResults": "Lihat semua {count} hasil",
+    "popularSearches": "Pencarian populer:",
+    "peopleAreSearching": "Orang-orang sedang mencari",
+    "moviesAndTVSeries": "Film & Serial TV",
+    "noMoviesFound": "Tidak ada film ditemukan."
+  },
+  "home": {
+    "continueWatching": "Lanjutkan Menonton",
+    "newMovies": "Film Baru",
+    "allMovies": "Semua Film",
+    "moreMovies": "Lebih Banyak Film"
+  },
+  "movie": {
+    "watchNow": "Tonton Sekarang",
+    "addToList": "Tambahkan ke Daftar",
+    "removeFromList": "Hapus dari Daftar",
+    "episodes": "Episode",
+    "description": "Deskripsi",
+    "cast": "Pemeran",
+    "genre": "Genre",
+    "duration": "Durasi",
+    "rating": "Peringkat",
+    "releaseDate": "Tanggal Rilis",
+    "director": "Sutradara",
+    "producer": "Produser",
+    "favorites": "Favorit",
+    "completed": "Selesai"
+  },
+  "auth": {
+    "login": "Masuk",
+    "logout": "Keluar",
+    "signup": "Daftar",
+    "profile": "Profil",
+    "settings": "Pengaturan",
+    "notAuthenticated": "Anda belum masuk, silakan login",
+    "coins": "Koin",
+    "topUp": "Isi Saldo",
+    "chooseYourExperience": "Pilih Pengalaman Anda",
+    "getAccessToPremiumContent": "Dapatkan akses ke konten premium",
+    "continueWithGoogle": "Lanjutkan dengan Google",
+    "termsOfService": "Syarat Layanan",
+    "privacyPolicy": "Kebijakan Privasi",
+    "byContinyingYouAgree": "Dengan melanjutkan, Anda menyetujui",
+    "and": "dan",
+    "pleaseLoginFirst": "Silakan login terlebih dahulu"
+  },
+  "dashboard": {
+    "title": "Dasbor",
+    "library": "Perpustakaan",
+    "wallet": "Dompet",
+    "history": "Riwayat",
+    "favorites": "Favorit",
+    "watchlist": "Daftar Tontonan",
+    "accountBalance": "Saldo Akun",
+    "myList": "Daftar Saya",
+    "transactionHistory": "Riwayat Transaksi",
+    "episodesUnlocked": "Episode Terbuka",
+    "price": "Harga",
+    "coins": "Koin",
+    "uniqueId": "ID Unik",
+    "paymentGateway": "Gateway Pembayaran",
+    "date": "Tanggal",
+    "movieName": "Nama Film",
+    "episodeNumber": "Nomor Episode",
+    "unlockTime": "Waktu Buka"
+  },
+  "footer": {
+    "about": "TENTANG",
+    "support": "DUKUNGAN",
+    "contactUs": "Hubungi Kami",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Syarat Layanan",
+    "feedback": "Masukan",
+    "mediaRelations": "Hubungan Media & Publik"
+  },
+  "payment": {
+    "enterPaymentDetails": "Masukkan Rincian Pembayaran",
+    "price": "Harga",
+    "fullName": "Nama Lengkap",
+    "addressLine1": "Alamat Baris 1",
+    "addressLine2": "Alamat Baris 2 (Opsional)",
+    "city": "Kota",
+    "state": "Provinsi",
+    "postalCode": "Kode Pos",
+    "payNow": "Bayar Sekarang",
+    "processing": "Memproses...",
+    "cancel": "Batal",
+    "paymentMethod": "Metode Pembayaran",
+    "bonus": "Bonus"
+  },
+  "unlock": {
+    "payToContinueWatching": "Bayar untuk melanjutkan menonton",
+    "unlockAtJust": "buka hanya dengan",
+    "topUpToGet100Bonus": "Isi ulang untuk mendapatkan bonus 100%",
+    "balance": "Saldo"
+  },
+  "video": {
+    "play": "Putar",
+    "pause": "Jeda",
+    "mute": "Bisu",
+    "unmute": "Bunyikan",
+    "fullscreen": "Layar Penuh",
+    "exitFullscreen": "Keluar dari Layar Penuh",
+    "volume": "Volume",
+    "settings": "Pengaturan",
+    "speed": "Kecepatan",
+    "quality": "Kualitas"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "close": "Tutup",
+    "back": "Kembali",
+    "next": "Berikutnya",
+    "previous": "Sebelumnya",
+    "submit": "Kirim",
+    "confirm": "Konfirmasi",
+    "yes": "Ya",
+    "no": "Tidak",
+    "ok": "OK",
+    "retry": "Coba Lagi",
+    "continue": "Lanjutkan",
+    "all": "Semua",
+    "movies": "Film",
+    "noMoviesFound": "Tidak ada film ditemukan.",
+    "home": "Beranda"
+  },
+  "language": {
+    "selectLanguage": "Pilih Bahasa",
+    "language": "Bahasa"
+  },
+  "errors": {
+    "somethingWentWrong": "Terjadi kesalahan",
+    "tryAgain": "Silakan coba lagi",
+    "networkError": "Kesalahan jaringan",
+    "unauthorized": "Akses tidak sah",
+    "invalidCredentials": "Kredensial tidak valid",
+    "sessionExpired": "Sesi telah berakhir"
+  },
+  "notifications": {
+    "movieAddedToList": "Film ditambahkan ke daftar Anda",
+    "movieRemovedFromList": "Film dihapus dari daftar Anda",
+    "loginRequired": "Silakan masuk untuk melanjutkan",
+    "operationSuccessful": "Operasi berhasil diselesaikan",
+    "paymentSuccessful": "Pembayaran berhasil",
+    "paymentFailed": "Pembayaran gagal",
+    "loginSuccessful": "Berhasil masuk",
+    "logoutSuccessful": "Berhasil keluar"
+  },
+  "login": {
+    "chooseYourExperience": "Pilih Pengalaman Anda",
+    "getAccessToPremiumContent": "Dapatkan akses ke konten premium",
+    "continueWithGoogle": "Lanjutkan dengan Google",
+    "byContinuingYouAgree": "Dengan melanjutkan, Anda menyetujui"
+  },
+  "movieDetails": {
+    "play": "Putar",
+    "addToMyList": "Tambahkan ke Daftar",
+    "removeFromMyList": "Hapus dari Daftar",
+    "pleaseLoginToAddToList": "Silakan masuk untuk menambahkan ke daftar",
+    "remove": "Hapus",
+    "add": "Tambahkan"
+  },
+  "episodes": {
+    "home": "Beranda",
+    "episode": "Episode",
+    "fullMovie": "Film Lengkap",
+    "share": "Bagikan",
+    "plotof": "Plot dari",
+    "episodeListOf": "Daftar Episode dari",
+    "completed": "Selesai",
+    "allEpisodes": "Semua Episode",
+    "trailer": "Trailer"
+  },
+  "details": {
+    "home": "Beranda",
+    "share": "Bagikan",
+    "goToWatching": "Pergi ke Menonton",
+    "addToMyList": "Tambahkan ke Daftar",
+    "plotof": "Plot dari",
+    "episodeList": "Daftar Episode",
+    "trailer": "Trailer",
+    "episode": "Episode",
+    "ep": "EP",
+    "youMightLike": "Anda mungkin suka",
+    "removeFromMyList": "Hapus dari Daftar"
+  },
+  "fullEpisodes": {
+    "allEpisodes": "Semua Episode",
+    "episodes": "Episode",
+    "moviesAndTVSeries": "Film & Serial TV"
+  },
+  "videoError": {
+    "errorOccurred": "Terjadi kesalahan saat memutar video"
+  },
+  "qrDownload": {
+    "scanQRCodeToDownloadApp": "Pindai kode QR untuk mengunduh aplikasi",
+    "downloadOnIOSOrAndroid": "Unduh di iOS atau Android"
+  }
+}
