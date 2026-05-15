@@ -3,17 +3,17 @@
 
   <h4 class="movie-header ms-4 mb-1">All Movies</h4>
 
-  <div class="movie-wrapper">
+  <div class="movie-wrapper p-5">
 
     <button class="prev-btn" (click)="scrollPrev()">❮</button>
 
-    <div class="movie-row" #movieRow>
+    <div class="movie-row" #movieRow p-5>
 
       <div class="movie-card" *ngFor="let movie of movies">
 
         <img
         [src]="'https://image.tmdb.org/t/p/w500'+movie.poster_path"
-        class="movie-img">
+        class="movie-img ">
 
         <div class="preview-card">
 
